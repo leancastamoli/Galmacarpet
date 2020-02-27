@@ -10,6 +10,7 @@
     <header>
 		<div class="menu">
             <ul>
+                <li><img class="logo" src="assets/img/logo.svg" alt=""></li>
                 <li>¿Quienes somos?</li>
                 <li>Instalaciones</li>
                 <li>Catalogo</li>
