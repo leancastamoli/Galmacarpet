@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', ;
+}
+
+
+header {
+    background-image: url("../assets/img/portada2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 38em;
+    position: absolute;
+    top: 0;
+    font-family: Poppins;
+}
+
+            /* Menu */
+.menu {
+    background-color: #9FE8CE;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 20px;
+    margin-top: 1em;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+    
+}
+li {
+    display: inline;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+}
+.logo {
+    width: 60px;
+}
+
+        /* main */
+
+main {
+    width: 100%;
+    height: 20em;
+    margin-top: 50%;
+}
+
+.titulo {
+    background-color: rgba(199, 181, 147, .7);
+    color: #808cff;
+    width: 30%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 3em;
+    border-radius: 20px;
+    position: absolute;
+    top: 3em;
+}
+
+.titulo h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    font-size: 3em;
+}
+
+.titulo p {
+    display: flex;
+    justify-content: center;
+    margin-left: -10em;
+}
+
+.botont {
+    width: 15em;
+    height: 4em;
+    margin-left: 28%;
+    margin-top: 8em;
+    background-color: #9FE8AA;
+    border-radius: 20px;
+    color: black;
+    font-size: 15px;
+    font-family: Poppins;
+}
+
+        /* body */
+
+body {
+    background-color: whitesmoke;
+}

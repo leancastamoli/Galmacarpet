@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <title>Galmacarpet</title>
 </head>
 <body>
@@ -17,18 +18,24 @@
                 <li>Contacta con nosotros</li>
             </ul>
         </div>
+        <div class="titulo">
+               
+           <h1>Galmacarpet</h1>     
+            <p>Frase motivadora</p>
+            <button class="botont">Catalogo</button>
+        </div>
     </header>
         <main>
-            <div class="parrafo1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                Vel modi aperiam ut eligendi deserunt voluptatum laudantium nisi <br>
-                dolor ab quod fuga cumque ipsa optio debitis ex, aspernatur vero<br>
-                nobis mollitia?<br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                Hic labore officia ex quis, dolores perspiciatis excepturi <br>
-                aspernatur vel porro numquam temporibus recusandae voluptatum <br>
-                inventore, et necessitatibus. Rem cumque autem assumenda!<br>
-                
+            <div class="somos">
+                <h2>¿Quienes somos?</h2>
+                <img src="assets/img/quienes_somos.png" alt="¿Quienes Somos?">
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+                    Fuga quisquam aliquid earum eligendi natus cupiditate, <br>
+                    voluptatibus quaerat totam porro inventore pariatur quos ullam <br>
+                    beatae magni praesentium asperiores in sapiente nostrum.
+                </p>
             </div>
                 
         </main>
