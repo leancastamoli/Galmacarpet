@@ -19,14 +19,18 @@
         </div>
     </header>
         <main>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-            Vel modi aperiam ut eligendi deserunt voluptatum laudantium nisi <br>
-            dolor ab quod fuga cumque ipsa optio debitis ex, aspernatur vero<br>
-            nobis mollitia?<br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-            Hic labore officia ex quis, dolores perspiciatis excepturi <br>
-            aspernatur vel porro numquam temporibus recusandae voluptatum <br>
-            inventore, et necessitatibus. Rem cumque autem assumenda!<br>
+            <div class="parrafo1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                Vel modi aperiam ut eligendi deserunt voluptatum laudantium nisi <br>
+                dolor ab quod fuga cumque ipsa optio debitis ex, aspernatur vero<br>
+                nobis mollitia?<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Hic labore officia ex quis, dolores perspiciatis excepturi <br>
+                aspernatur vel porro numquam temporibus recusandae voluptatum <br>
+                inventore, et necessitatibus. Rem cumque autem assumenda!<br>
+                
+            </div>
+                
         </main>
 </body>
 </html>
