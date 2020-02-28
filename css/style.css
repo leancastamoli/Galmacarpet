@@ -7,7 +7,27 @@ body {
     font-family: 'Poppins', ;
 }
 
+.barraH {
+    background-color: black;
+    width: 100%;
+    height: 2em;
+    padding-top: 10px;
+    color: white;
+}
+.redes {
+    margin-top: 20px;
+    margin-left: 60em;
+}
+.redes i {
+    margin-right: 20px;
+}
 
+.telefono {
+    margin-top: 20px;
+    margin-left: 12em;
+}
+
+      /* Cabezera */
 header {
     background-image: url("../assets/img/portada2.png");
     background-size: 100%;
@@ -16,7 +36,7 @@ header {
     width: 100%;
     height: 50em;
     position: absolute;
-    top: 0;
+    top: 2em;
     font-family: Poppins;
 }
 
@@ -56,12 +76,12 @@ main {
     background-color: rgba(199, 181, 147, .7);
     color: #808cff;
     width: 30%;
-    height: 80%;
+    height: 70%;
     margin-left: 10%;
     margin-top: 3em;
     border-radius: 20px;
     position: absolute;
-    top: 3em;
+    top: 4.5em;
 }
 
 .titulo h1 {

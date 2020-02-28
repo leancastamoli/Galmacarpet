@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48e67b19ab.js" crossorigin="anonymous"></script>
     <title>Galmacarpet</title>
 </head>
 <body>
+    <div class="barraH">
+        <label class="telefono" ><i class="fas fa-phone"></i>+34 613 243 920</label>
+        <label class="redes"><i class="fab fa-instagram"></i><i class="fab fa-facebook-square"></i><i class="far fa-envelope"></i></label>
+    </div>
     <header>
 		<div class="menu">
             <ul>
