@@ -63,6 +63,19 @@
                 </p>
                 
             </div>
+            <div class="contacta">
+                <h2>Contacta con nosotros</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+                    Fuga quisquam aliquid earum eligendi natus cupiditate, <br>
+                    voluptatibus quaerat totam porro inventore pariatur quos ullam <br>
+                    beatae magni praesentium asperiores in sapiente nostrum.
+                    <button class="botont">Contactos</button>
+                </p>
+                <img src="assets/img/contactos.jpg" alt="Instalacion">
+                
+                
+            </div>
                 
         </main>
 </body>

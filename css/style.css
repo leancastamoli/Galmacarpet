@@ -242,3 +242,103 @@ body {
     font-size: 15px;
     font-family: Poppins;
 }
+
+/* Contacata con nosotros */
+
+
+.somos {
+    font-family: Poppins;
+    display: grid;
+    margin-top: -2.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #d7d7a8;
+    grid-template-columns: auto auto;
+}
+
+.somos h2 {
+    margin-left: 10%;
+    font-size: 50px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.somos img {
+    width: 80%;
+    height: 30em;
+    margin: 10%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.somos p {
+    background-color: #808cff;
+    width: 80%;
+    height: 40%;
+    margin-top: 10em;
+    border-radius: 20px;
+    padding: 2em;
+    font-family: Poppins;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.somos .botont {
+    width: 15em;
+    height: 4em;
+    margin-top: 1.5em;
+    background-color: #9FE8AA;
+    border-radius: 20px;
+    color: black;
+    font-size: 15px;
+    font-family: Poppins;
+}
+
+/* Instalaciones */
+.contacta {
+    margin-top: 5em;
+    font-family: Poppins;
+    display: grid;
+    margin-top: -1em;
+    padding-bottom: 3em;
+    background-color: #ebebd3;
+    grid-template-columns: auto auto;
+}
+
+.contacta h2 {
+    margin-top: 1em;
+    font-size: 50px;
+    margin-left: 60%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.contacta img {
+    width: 90%;
+    height: 30em;
+    margin: 10%;
+    margin-left: -3em;
+    margin-top: 2em;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.contacta p {
+    background-color: #808cff;
+    width: 70%;
+    height: 40%;
+    margin-top: 10em;
+    margin-left: 10%;
+    border-radius: 20px;
+    padding: 2em;
+    font-family: Poppins;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.contacta .botont {
+    width: 15em;
+    height: 4em;
+    margin-top: 1.5em;
+    background-color: #9FE8AA;
+    border-radius: 20px;
+    color: black;
+    font-size: 15px;
+    font-family: Poppins;
+}
