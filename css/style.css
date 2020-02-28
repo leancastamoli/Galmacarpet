@@ -94,3 +94,12 @@ main {
 body {
     background-color: whitesmoke;
 }
+
+.somos {
+    font-family: Poppins;
+    background-color: black;
+}
+
+.somos h2 {
+    background-color: red;
+}
