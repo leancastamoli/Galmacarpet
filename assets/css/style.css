@@ -53,12 +53,15 @@ ul {
     justify-content: center;
     text-align: center;
     padding: 1em;
-    
 }
 li {
     display: inline;
     margin-right: 1.5em;
     margin-left: 1.5em;
+}
+li a {
+    text-decoration: none;
+    color: black;
 }
 .logo {
     width: 60px;
@@ -68,7 +71,7 @@ li {
 
 main {
     width: 100%;
-    height: 20em;
+    height: 80em;
     margin-top: 53%;
 }
 
@@ -373,6 +376,8 @@ footer {
     display: grid;
     grid-template-columns: auto auto;
     text-align: center;
+    position: absolute;
+    top: -100%;
 }
 .footerR {
     color: white;
@@ -400,4 +405,70 @@ footer {
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 3;
+}
+
+/* Pagina Contacta con nosotros  */
+
+.pcontacta {
+    margin-top: 50em;
+    margin-bottom: -200em;
+    padding-top: 2em;
+    width: 100%;
+    height: 80em;
+    background-color:#ebebd3;
+}
+.pcontacta h1 {
+    text-align: center;
+    font-size: 4em;
+    color: #808cff;
+    font-family: Poppins;
+}
+.pcontacta p {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+}
+.predes {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+}
+.predes i {
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+.formulario {
+    font-family: Poppins;
+    width: 30em;
+    height: 37em;
+    padding: 3em;
+    padding-top: 5em;
+    padding-bottom: 4em;
+    margin-left: 37%;
+    background-color: #808cff;
+}
+.formulario label {
+    text-align: left;
+    font-size: 20px;
+}
+.formulario input {
+    width: 100%;
+    height: 2em;
+    font-size: 20px;
+}
+.formulario h1 {
+    background-color: white;
+    border-radius: 100%;
+    margin-top: -1em;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+.correo label{
+    font-size: 20px;
+}
+.correo i {
+    font-size: 20px;
+    margin-left: 1em;
+    margin-right: 1.5em;
 }
