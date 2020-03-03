@@ -71,7 +71,7 @@ li a {
 
 main {
     width: 100%;
-    height: 80em;
+    height: 90%;
     margin-top: 53%;
 }
 
@@ -371,13 +371,10 @@ body {
 footer {
     width: 100%;
     height: 15em;
-    margin-top: 169em;
     background-color: black;
     display: grid;
     grid-template-columns: auto auto;
     text-align: center;
-    position: absolute;
-    top: -100%;
 }
 .footerR {
     color: white;
@@ -414,7 +411,7 @@ footer {
     margin-bottom: -200em;
     padding-top: 2em;
     width: 100%;
-    height: 80em;
+    height: 90%;
     background-color:#ebebd3;
 }
 .pcontacta h1 {
@@ -460,9 +457,8 @@ footer {
 .formulario h1 {
     background-color: white;
     border-radius: 100%;
-    margin-top: -1em;
-    margin-right: 2em;
-    margin-left: 2em;
+    font-size: 50px;
+    background-color: white;
 }
 .correo label{
     font-size: 20px;
