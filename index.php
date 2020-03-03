@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/48e67b19ab.js" crossorigin="anonymous"></script>
     <title>Galmacarpet</title>
@@ -83,5 +83,21 @@
             </div>
                 
         </main>
+        <footer>
+                <label class="footerR">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="far fa-envelope"></i>
+                    <br>
+                    <i class="far fa-envelope"></i>correo@gmail.com
+                </label> 
+                <label class="footerD">
+                    <a href="#"> ¿Quienes somos? |</a>
+                    <a href="#"> Instalaciones |</a>
+                    <a href="#"> Catalogo |</a>
+                    <a href="#"> Contacta con nosotros</a>
+                </label>
+                <label class="copy"><i class="fas fa-copyright"></i>Copyright 2020 Galmacarpet</label>
+        </footer>
 </body>
 </html>
