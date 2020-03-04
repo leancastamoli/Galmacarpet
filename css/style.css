@@ -10,21 +10,26 @@ body {
 .barraH {
     background-color: black;
     width: 100%;
-    height: 2em;
-    padding-top: 10px;
+    height: 1%;
+    padding: 1%;
+    padding-top: 0.5%;
     color: white;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 .redes {
-    margin-top: 20px;
-    margin-left: 60em;
+    margin-left: 60%;
+    grid-column-start: 2;
+    grid-template-columns: 3;
 }
 .redes i {
     margin-right: 20px;
 }
 
 .telefono {
-    margin-top: 20px;
-    margin-left: 12em;
+    margin-left: 10%;
+    grid-column-start: 1;
+    grid-template-columns: 2;
 }
 
       /* Cabezera */
@@ -34,81 +39,43 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    height: 53em;
+    height: 100vh;
     position: absolute;
-    top: 2em;
+    top: 4.8%;
     font-family: Poppins;
 }
 
             /* Menu */
 .menu {
     background-color: #808cff;
-    margin-left: 40%;
-    margin-right: 5%;
-    border-radius: 20px;
-    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 20% 80%;
 }
-ul {
+.menuD {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.menuD ul {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 1em;
+    padding: 1.5%;
 }
-li {
+.menuD li {
     display: inline;
-    margin-right: 1.5em;
-    margin-left: 1.5em;
+    margin-right: 3%;
+
 }
-li a {
+.menuD li a {
     text-decoration: none;
     color: black;
 }
-.logo {
-    width: 60px;
-}
-
-        /* main */
-
-main {
-    width: 100%;
-    margin-top: 53%;
-}
-
 .titulo {
-    background-color: rgba(199, 181, 147, .7);
-    color: #808cff;
-    width: 30%;
-    height: 70%;
-    margin-left: 10%;
-    margin-top: 3em;
-    border-radius: 20px;
-    position: absolute;
-    top: 4.5em;
-}
-
-.titulo h1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 20%;
-    font-size: 3em;
-}
-
-.titulo p {
-    display: flex;
-    justify-content: center;
-    margin-left: -10em;
-}
-
-.botont {
-    width: 15em;
-    height: 4em;
-    margin-left: 28%;
-    margin-top: 8em;
-    background-color: #9FE8AA;
-    border-radius: 20px;
-    color: black;
-    font-size: 15px;
-    font-family: Poppins;
+    color: red;
+    margin-left: 20%;
+    margin-top: 2%;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
         /* body */
@@ -116,39 +83,46 @@ main {
 body {
     background-color: whitesmoke;
 }
+        /* Main */
 
+main{
+    margin-top: 100vh;
+}
 /* ¿Quienes somos? */
 
 .somos {
     font-family: Poppins;
     display: grid;
-    padding-top: 2em;
     height: 100%;
+    padding-bottom: 4em;
     background-color: #d7d7a8;
     grid-template-columns: auto auto;
 }
 
-.somos h2 {
+.Tsomos {
     margin-left: 10%;
     margin-top: 1em;
-    font-size: 50px;
+    font-size: 40px;
     grid-column-start: 1;
     grid-column-end: 3;
 }
 
-.somos img {
+.Isomos {
     width: 100%;
-    height: 30em;
-    margin-right: ;
+    height: 100%;
+    margin: 10% ;
+    margin-top: 2em;
     grid-column-start: 1;
     grid-column-end: 2;
 }
-.somos p {
+.Psomos {
     background-color: #808cff;
-    width: 70%;
+    width: 80%;
     height: 40%;
-    font-size: 20px;
+    margin-top: 8em;
+    margin-left: 10%;
     border-radius: 20px;
+    font-size: 20px;
     padding: 2em;
     font-family: Poppins;
     grid-column-start: 2;
@@ -157,7 +131,8 @@ body {
 .somos .botont {
     width: 15em;
     height: 4em;
-    margin-top: 1.5em;
+    margin-top: 0.5em;
+    margin-right: 50%;
     background-color: #9FE8AA;
     border-radius: 20px;
     color: black;
@@ -167,11 +142,10 @@ body {
 
 /* Instalaciones */
 .instal {
-    margin-top: 5em;
     font-family: Poppins;
     display: grid;
-    margin-top: -1em;
-    padding-bottom: 3em;
+    height: 100%;
+    padding-bottom: 4em;
     background-color: #dedeb6;
     grid-template-columns: auto auto;
 }
@@ -224,15 +198,16 @@ body {
 .catalogo {
     font-family: Poppins;
     display: grid;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    height: 100%;
+    padding-bottom: 5em;
     background-color: #e5e4c5;
     grid-template-columns: auto auto;
 }
 
 .catalogo h2 {
-    margin-left: 10%;
+    margin-top: 1em;
     font-size: 50px;
+    margin-left: 10%;
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -240,7 +215,8 @@ body {
 .catalogo img {
     width: 90%;
     height: 30em;
-    margin-left: 10%;
+    margin: 10% ;
+    margin-top: 2em;
     grid-column-start: 1;
     grid-column-end: 2;
 }
@@ -251,8 +227,8 @@ body {
     margin-top: 8em;
     margin-left: 10%;
     border-radius: 20px;
-    padding: 2em;
     font-size: 20px;
+    padding: 2em;
     font-family: Poppins;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -260,7 +236,8 @@ body {
 .catalogo .botont {
     width: 15em;
     height: 4em;
-    margin-top: 3em;
+    margin-top: 0.5em;
+    margin-right: 50%;
     background-color: #9FE8AA;
     border-radius: 20px;
     color: black;
@@ -268,62 +245,14 @@ body {
     font-family: Poppins;
 }
 
-/* Contacata con nosotros */
+/* Contacta con nosotros */
 
-
-.somos {
-    font-family: Poppins;
-    display: grid;
-    margin-top: -2.5em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    background-color: #d7d7a8;
-    grid-template-columns: auto auto;
-}
-
-.somos h2 {
-    margin-left: 10%;
-    font-size: 50px;
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.somos img {
-    width: 80%;
-    height: 30em;
-    margin: 10%;
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-.somos p {
-    background-color: #808cff;
-    width: 80%;
-    height: 40%;
-    margin-top: 10em;
-    border-radius: 20px;
-    padding: 2em;
-    font-family: Poppins;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-.somos .botont {
-    width: 15em;
-    height: 4em;
-    margin-top: 1.5em;
-    background-color: #9FE8AA;
-    border-radius: 20px;
-    color: black;
-    font-size: 15px;
-    font-family: Poppins;
-}
-
-/* Instalaciones */
 .contacta {
-    margin-top: 5em;
     font-family: Poppins;
     display: grid;
-    margin-top: -1em;
-    padding-bottom: 3em;
+    height: 100%;
+    padding-top;
+    padding-bottom: 4em;
     background-color: #ebebd3;
     grid-template-columns: auto auto;
 }
@@ -331,7 +260,7 @@ body {
 .contacta h2 {
     margin-top: 1em;
     font-size: 50px;
-    margin-left: 60%;
+    margin-left: 50%;
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -340,18 +269,19 @@ body {
     width: 90%;
     height: 30em;
     margin: 10%;
-    margin-left: -3em;
+    margin-left: 0;
     margin-top: 2em;
     grid-column-start: 2;
     grid-column-end: 3;
 }
 .contacta p {
     background-color: #808cff;
-    width: 70%;
+    width: 80%;
     height: 40%;
-    margin-top: 10em;
+    margin-top: 8em;
     margin-left: 10%;
     border-radius: 20px;
+    font-size: 20px;
     padding: 2em;
     font-family: Poppins;
     grid-column-start: 1;
@@ -360,7 +290,8 @@ body {
 .contacta .botont {
     width: 15em;
     height: 4em;
-    margin-top: 1.5em;
+    margin-top: 0.5em;
+    margin-right: 50%;
     background-color: #9FE8AA;
     border-radius: 20px;
     color: black;

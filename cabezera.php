@@ -15,41 +15,43 @@
     </div>
     <header>
 		<div class="menu">
-            <ul>
-                <li><img class="logo" src="assets/img/logo.svg" alt=""></li>
-                <li><a href="index.php?p=somos">¿Quienes somos?</a></li>
-                <li><a href="index.php?p=instal">Instalaciones</a></li>
-                <li><a href="index.php?p=catalogo">Catalogo</a></li>
-                <li><a href="index.php?p=contacta">Contacta con nosotros</a></li>
-            </ul>
+            <div class="titulo">
+                
+                <h1>
+                    <?php
+                    if(isset($_GET['p'])){
+                        $pagina=$_GET['p'];
+                            if($pagina=="main"){	
+                                echo "Galmacarpet";
+                            }
+                            if($pagina=="somos")	{
+                                echo "¿Quienes somos?";
+                            }
+                            if($pagina=="instal")	{
+                                echo "Instalaciones";
+                            }
+                            if($pagina=="catalogo")	{
+                                echo "Catalogo";
+                            }
+                            if($pagina=="contacta")	{
+                                echo "Contacta con nosotros";
+                            }
+                            }else{
+                                echo "Galmacarpet";
+                            }
+                        ?>
+                    </h1>     
+                </div>
+                <div class="menuD"> 
+                    <ul>
+                        <li><img class="logo" src="assets/img/logo.svg" alt=""></li>
+                        <li><a href="index.php?p=somos">¿Quienes somos?</a></li>
+                        <li><a href="index.php?p=instal">Instalaciones</a></li>
+                        <li><a href="index.php?p=catalogo">Catalogo</a></li>
+                        <li><a href="index.php?p=contacta">Contacta con nosotros</a></li>
+                    </ul>
+                </div>
+            
         </div>
-        <div class="titulo">
-               
-           <h1>
-               <?php
-               if(isset($_GET['p'])){
-                $pagina=$_GET['p'];
-                    if($pagina=="main"){	
-                        echo "Galmacarpet";
-                    }
-                    if($pagina=="somos")	{
-                        echo "¿Quienes somos?";
-                    }
-                    if($pagina=="instal")	{
-                        echo "Instalaciones";
-                    }
-                    if($pagina=="catalogo")	{
-                        echo "Catalogo";
-                    }
-                    if($pagina=="contacta")	{
-                        echo "Contacta con nosotros";
-                    }
-                    }else{
-                        echo "Galmacarpet";
-                    }
-                ?>
-            </h1>     
-            <p>Frase motivadora</p>
-            <a href="index.php?p=main"><button class="botont">Inicio</button></a> 
-        </div>
+        
     </header>

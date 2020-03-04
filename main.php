@@ -1,14 +1,21 @@
 <main>
             <div class="somos">
-                <h2>¿Quienes somos?</h2>
+                <div class="Tsomos">
+                    <h2>¿Quienes somos?</h2>
+                </div>
+                <div class="Isomos">
                 <img src="assets/img/quienes_somos.png" alt="¿Quienes Somos?">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
-                    Fuga quisquam aliquid earum eligendi natus cupiditate, <br>
-                    voluptatibus quaerat totam porro inventore pariatur quos ullam <br>
-                    beatae magni praesentium asperiores in sapiente nostrum.
-                    <button class="botont">¿Quienes somos?</button>
-                </p>
+                </div>
+                <div class="Psomos">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+                        Fuga quisquam aliquid earum eligendi natus cupiditate, <br>
+                        voluptatibus quaerat totam porro inventore pariatur quos ullam <br>
+                        beatae magni praesentium asperiores in sapiente nostrum.
+                        <button class="botont">¿Quienes somos?</button>
+                    </p>
+                </div>
+                
                 
             </div>
             <div class="instal">
