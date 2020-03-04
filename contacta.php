@@ -1,4 +1,4 @@
-<main class="pcontacta">
+<main>
     <h1>Contacta con nosotros</h1>
     <p>Si tienes alguna duda sobre nuestros productos o tienes alguna duda contacat con nosotros como predieras:</p>
     <br>

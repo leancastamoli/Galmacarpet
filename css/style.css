@@ -29,12 +29,12 @@ body {
 
       /* Cabezera */
 header {
-    background-image: url("../img/portada2.png");
+    background-image: url("../assets/img/portada2.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    height: 50em;
+    height: 53em;
     position: absolute;
     top: 2em;
     font-family: Poppins;
@@ -42,7 +42,7 @@ header {
 
             /* Menu */
 .menu {
-    background-color: red;
+    background-color: #808cff;
     margin-left: 40%;
     margin-right: 5%;
     border-radius: 20px;
@@ -71,7 +71,6 @@ li a {
 
 main {
     width: 100%;
-    height: 90%;
     margin-top: 53%;
 }
 
@@ -123,32 +122,32 @@ body {
 .somos {
     font-family: Poppins;
     display: grid;
-    margin-top: -2.5em;
     padding-top: 2em;
-    padding-bottom: 2em;
+    height: 100%;
     background-color: #d7d7a8;
     grid-template-columns: auto auto;
 }
 
 .somos h2 {
     margin-left: 10%;
+    margin-top: 1em;
     font-size: 50px;
     grid-column-start: 1;
     grid-column-end: 3;
 }
 
 .somos img {
-    width: 80%;
+    width: 100%;
     height: 30em;
-    margin: 10%;
+    margin-right: ;
     grid-column-start: 1;
     grid-column-end: 2;
 }
 .somos p {
     background-color: #808cff;
-    width: 80%;
+    width: 70%;
     height: 40%;
-    margin-top: 10em;
+    font-size: 20px;
     border-radius: 20px;
     padding: 2em;
     font-family: Poppins;
@@ -198,9 +197,10 @@ body {
     background-color: #808cff;
     width: 70%;
     height: 40%;
-    margin-top: 10em;
+    margin-top: 8em;
     margin-left: 10%;
     border-radius: 20px;
+    font-size: 20px;
     padding: 2em;
     font-family: Poppins;
     grid-column-start: 1;
@@ -209,7 +209,8 @@ body {
 .instal .botont {
     width: 15em;
     height: 4em;
-    margin-top: 1.5em;
+    margin-top: 0.5em;
+    margin-right: 50%;
     background-color: #9FE8AA;
     border-radius: 20px;
     color: black;
@@ -237,20 +238,21 @@ body {
 }
 
 .catalogo img {
-    width: 80%;
+    width: 90%;
     height: 30em;
-    margin: 10%;
+    margin-left: 10%;
     grid-column-start: 1;
     grid-column-end: 2;
 }
 .catalogo p {
     background-color: #808cff;
-    width: 80%;
+    width: 70%;
     height: 40%;
-    margin-top: 10em;
+    margin-top: 8em;
+    margin-left: 10%;
     border-radius: 20px;
-    margin-right: -25em;
     padding: 2em;
+    font-size: 20px;
     font-family: Poppins;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -406,21 +408,14 @@ footer {
 
 /* Pagina Contacta con nosotros  */
 
-.pcontacta {
-    margin-top: 50em;
-    margin-bottom: -200em;
-    padding-top: 2em;
-    width: 100%;
-    height: 90%;
-    background-color:#ebebd3;
-}
-.pcontacta h1 {
+main h1 {
     text-align: center;
     font-size: 4em;
     color: #808cff;
     font-family: Poppins;
+    padding-top: 1em;
 }
-.pcontacta p {
+main p {
     text-align: center;
     font-family: Poppins;
     font-size: 25px;

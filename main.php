@@ -16,7 +16,7 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
                     Fuga quisquam aliquid earum eligendi natus cupiditate, <br>
-                    voluptatibus quaerat totam porro inventore pariatur quos ullam <br>
+                    voluptatibus quaerat totam porro inventore pariatur ullam <br>
                     beatae magni praesentium asperiores in sapiente nostrum.
                     <button class="botont">Instalaciones</button>
                 </p>
@@ -30,7 +30,7 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
                     Fuga quisquam aliquid earum eligendi natus cupiditate, <br>
-                    voluptatibus quaerat totam porro inventore pariatur quos ullam <br>
+                    voluptatibus quaerat totam porro inventore pariatur ullam <br>
                     beatae magni praesentium asperiores in sapiente nostrum.
                     <button class="botont">Ir al catalogo</button>
                 </p>
