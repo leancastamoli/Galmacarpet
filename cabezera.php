@@ -11,36 +11,13 @@
 <body>
     <div class="barraH">
         <label class="telefono" ><i class="fas fa-phone"></i>+34 613 243 920</label>
-        <label class="redes"><i class="fab fa-instagram"></i><i class="fab fa-facebook-square"></i><i class="far fa-envelope"></i></label>
+        <label class="redes"> <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram"></i></a> <a href="https://es-es.facebook.com/"> <i class="fab fa-facebook-square"></i></a> <a href="https://www.google.com/intl/es/gmail/about/#"><i class="far fa-envelope"></i></a> </label>
     </div>
     <header>
 		<div class="menu">
             <div class="titulo">
                 
-                <h1>
-                    <?php
-                    if(isset($_GET['p'])){
-                        $pagina=$_GET['p'];
-                            if($pagina=="main"){	
-                                echo "Galmacarpet";
-                            }
-                            if($pagina=="somos")	{
-                                echo "¿Quienes somos?";
-                            }
-                            if($pagina=="instal")	{
-                                echo "Instalaciones";
-                            }
-                            if($pagina=="catalogo")	{
-                                echo "Catalogo";
-                            }
-                            if($pagina=="contacta")	{
-                                echo "Contacta con nosotros";
-                            }
-                            }else{
-                                echo "Galmacarpet";
-                            }
-                        ?>
-                    </h1>     
+            <a href="index.php?p=main"><h1>Galmacarpet</h1></a>     
                 </div>
                 <div class="menuD"> 
                     <ul>
