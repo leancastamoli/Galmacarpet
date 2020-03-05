@@ -17,6 +17,10 @@
             $actual="Galmacarpet";
             $pagina="main.php";
         }
+        if($pagina=="iniciar"){	
+            $actual="Galmacarpet";
+            $pagina="iniciar_sesion.php";
+        }
         if($pagina=="somos")	{
             $actual="¿Quienes somos?";
             $pagina="somos.php";

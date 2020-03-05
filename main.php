@@ -3,7 +3,7 @@
                 <div class="Tsomos">
                     <h2>¿Quienes somos?</h2>
                 </div>
-                <div class="Isomos">
+                <div class="Isomos animated fadeInLeft">
                     <img src="assets/img/quienes_somos.png" alt="¿Quienes Somos?">
                 </div>
                 <div class="Psomos">
@@ -11,7 +11,7 @@
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quisquam aliquid earum eligendi natus cupiditate,  voluptatibus quaerat totam porro inventore pariatur quos ullam  beatae magni praesentium asperiores in sapiente nostrum.
                         </p>
-                        <button class="botont">¿Quienes somos?</button>
+                         <a href="index.php?p=somos"><button class="botont">¿Quienes somos?</button></a> 
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@
                                 beatae magni praesentium asperiores in sapiente nostrum.
                                 
                             </p>
-                            <button class="botont">Instalaciones</button>
+                            <a href="index.php?p=instal"><button class="botont">Instalaciones</button></a> 
                         </div>
                         
                         
@@ -54,7 +54,7 @@
                         voluptatibus quaerat totam porro inventore pariatur ullam <br>
                         beatae magni praesentium asperiores in sapiente nostrum.
                         </p>
-                        <button class="botont">Ir al catalogo</button>
+                         <a href="index.php?p=catalogo"><button class="botont">Ir al catalogo</button></a> 
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                         voluptatibus quaerat totam porro inventore pariatur quos ullam <br>
                         beatae magni praesentium asperiores in sapiente nostrum.
                         </p>
-                        <button class="botont">Contactos</button>
+                        <a href="index.php?p=contacta"><button class="botont">Contactos</button></a> 
                     </div>
                 </div>
                 <div class="Icontacta">

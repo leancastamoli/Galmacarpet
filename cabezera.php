@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/48e67b19ab.js" crossorigin="anonymous"></script>
+    
     <title>Galmacarpet</title>
 </head>
-<body>
+<body class="animated fadeIn">
     <div class="barraH">
         <label class="telefono" ><i class="fas fa-phone"></i>+34 613 243 920</label>
         <label class="redes"> <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram"></i></a> <a href="https://es-es.facebook.com/"> <i class="fab fa-facebook-square"></i></a> <a href="https://www.google.com/intl/es/gmail/about/#"><i class="far fa-envelope"></i></a> </label>
+        <label class="iniciar"><a href="index.php?p=iniciar">Iniciar Sesion</a></label>
     </div>
     <header>
 		<div class="menu">
@@ -31,5 +35,13 @@
                 </div>
             
         </div>
+
+        <div class="Timg">
+            <h1>Galmacarpet</h1>
+            <div class="Pimg">
+            <p>Conoce nuestra variedad de estilos de moquetas</p>
+        </div>
+        </div>
+        
         
     </header>
