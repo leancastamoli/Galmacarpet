@@ -468,7 +468,7 @@ footer {
     align-items: center;
     border-radius: 20px;
     padding: 2%;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
     grid-column-start: 1;
     grid-column-end: 2;
 }
