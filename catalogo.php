@@ -1,3 +1,6 @@
 <main>
-    <h1>catalogo</h1>
+    <div class="Ctitulo">
+        <h1>Catalogo</h1>
+    </div>
+    
 </main>

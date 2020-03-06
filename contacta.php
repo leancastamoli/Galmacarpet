@@ -4,19 +4,20 @@
         $asunto = $_POST['asunto'];
         $correo = $_POST['correo'];
         $consulta = $_POST['consulta'];
-        if (empty($nombre) | empty($asunto) | empty($correo) | empty($consulta) ) {
 ?>
-        <script>
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'No se pueden dejar campos vacios!'
-                })
-            
-        </script>
-<?php    
-        }else{
-            $header = 'From:'.$correo;
+    <script>
+        var comprobar = true;
+        comprobarNombre("<?php echo  $nombre ?>");
+        if (comprobar) {
+            document.getElementById("errNom").innerHTML = "Nombre erroneo o vacio<br>";
+            comprobar = false;
+        }
+        document.getElementById("errAsun").innerHTML = "Nombre erroneo o vacio<br>";
+        document.getElementById("errEmail").innerHTML = "Nombre erroneo o vacio<br>";
+        document.getElementById("errConsul").innerHTML = "Nombre erroneo o vacio<br>";
+          
+    <?php    
+           /*  $header = 'From:'.$correo;
             $header .= "X-Mailer: PHP/".phpversion()."\r\n";
             $header .= "Mime-Version: 1.0 \r\n";
             $header .= "Content-Type:text/plain";
@@ -31,19 +32,11 @@
             $asunto = $asunto;
 
             mail($para,$asunto,utf8_decode($mensaje),$header);
-?>
-        <script>
-            Swal.fire({
-                position: 'top-end',
-                icon: 'success',
-                title: 'El correo ha sido enviado',
-                showConfirmButton: false,
-                timer: 2000
-              })
-        </script>
+            correoEnviado(); */
+    ?>
+    </script>
             
 <?php
-        }
         
     }
         
@@ -76,30 +69,35 @@
                 <h1><i class="fab fa-wpforms"></i></h1>
             </div>
             <div class="Fformulario">
-                <form action="index.php?p=contacta"  method="POST">
+                <form action="index.php?p=contacta" id="formulario" method="POST">
                     <div class="Cdato">
                         <label>Nombre:</label>
                     </div>
                     <div class="Bdato">
-                        <input type="text"  name="nombre" placeholder="nombre">
+                        <input type="text" id="nombre" name="nombre" placeholder="nombre">
+                        <div id="errNom">dsadsa</div><br>
                     </div>
+                    
                     <div class="Cdato">
                         <label>Asunto:</label>
                     </div>
                     <div class="Bdato">
-                        <input type="text" name="asunto" placeholder="Asunto">
+                        <input type="text" id="asunto" name="asunto" placeholder="Asunto">
+                        <div id="errAsun">dsadsa</div><br>
                     </div>
                     <div class="Cdato">
                         <label>Correo electronico:</label>
                     </div>
                     <div class="Bdato">
-                        <input type="email" name="correo" placeholder="Correo electronico">
+                        <input type="email" id="correo" name="correo" placeholder="Correo electronico">
+                        <div id="errEmail">dsadsa</div><br>
                     </div>
                     <div class="Cdato">
                         <label>Consulta: </label>
                     </div>
                     <div class="Bdato">
-                        <textarea rows="10" cols="52" name="consulta" placeholder="Consulta"></textarea>
+                        <textarea id="consulta" rows="10" cols="52" name="consulta" placeholder="Consulta"></textarea>
+                        <div id="errConsul">dsad</div><br>
                     </div>
                     <div class="Benviar">
                         <button type="submit" name="enviar"><i class="fas fa-envelope"></i>  ENVIAR</button>
