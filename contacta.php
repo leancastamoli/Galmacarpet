@@ -9,12 +9,12 @@
         var comprobar = true;
         comprobarNombre("<?php echo  $nombre ?>");
         if (comprobar) {
-            document.getElementById("errNom").innerHTML = "Nombre erroneo o vacio<br>";
+            document.getElementById("errNom").innerHTML = ("Nombre erroneo o vacio<br>");
             comprobar = false;
         }
-        document.getElementById("errAsun").innerHTML = "Nombre erroneo o vacio<br>";
-        document.getElementById("errEmail").innerHTML = "Nombre erroneo o vacio<br>";
-        document.getElementById("errConsul").innerHTML = "Nombre erroneo o vacio<br>";
+        document.getElementById("errAsun").innerHTML = ("Nombre erroneo o vacio<br>");
+        document.getElementById("errEmail").innerHTML = ("Nombre erroneo o vacio<br>");
+        document.getElementById("errConsul").innerHTML = ("Nombre erroneo o vacio<br>");
           
     <?php    
            /*  $header = 'From:'.$correo;
@@ -75,7 +75,7 @@
                     </div>
                     <div class="Bdato">
                         <input type="text" id="nombre" name="nombre" placeholder="nombre">
-                        <div id="errNom">dsadsa</div><br>
+                        <div id="errNom"></div><br>
                     </div>
                     
                     <div class="Cdato">
@@ -83,21 +83,21 @@
                     </div>
                     <div class="Bdato">
                         <input type="text" id="asunto" name="asunto" placeholder="Asunto">
-                        <div id="errAsun">dsadsa</div><br>
+                        <div id="errAsun"></div><br>
                     </div>
                     <div class="Cdato">
                         <label>Correo electronico:</label>
                     </div>
                     <div class="Bdato">
                         <input type="email" id="correo" name="correo" placeholder="Correo electronico">
-                        <div id="errEmail">dsadsa</div><br>
+                        <div id="errEmail"></div><br>
                     </div>
                     <div class="Cdato">
                         <label>Consulta: </label>
                     </div>
                     <div class="Bdato">
                         <textarea id="consulta" rows="10" cols="52" name="consulta" placeholder="Consulta"></textarea>
-                        <div id="errConsul">dsad</div><br>
+                        <div id="errConsul"></div><br>
                     </div>
                     <div class="Benviar">
                         <button type="submit" name="enviar"><i class="fas fa-envelope"></i>  ENVIAR</button>
