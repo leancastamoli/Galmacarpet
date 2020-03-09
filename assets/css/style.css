@@ -8,7 +8,7 @@ body {
 }
 
 .barraH {
-    background-color: red;
+    background-color: black;
     width: 100%;
     height: 1%;
     padding-top: 0.5%;
@@ -46,7 +46,7 @@ body {
 
       /* Cabezera */
 header {
-    background-image: url("../assets/img/portada2.png");
+    background-image: url("../img/imagen1.PNG");
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -132,7 +132,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: #DACA74;
-    padding-bottom: 5em;
+    padding-bottom: 8em;
 }
 
 .Tsomos {
@@ -188,7 +188,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: #E2D796;
-    padding-bottom: 5.5em;
+    padding-bottom: 7em;
 }
 
 .Tinstal {
@@ -246,7 +246,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: #DAD1A0;
-    padding-bottom: 5em;
+    padding-bottom: 7.5em;
 }
 
 .Tcatalogo {
@@ -301,7 +301,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: #CFC89E ;
-    padding-bottom: 5.5em;
+    padding-bottom: 8.5em;
 }
 
 .Tcontacta {
@@ -518,7 +518,7 @@ footer {
     width: 100%;
     height: 100vh;
     font-family: Poppins;
-    background-image: url("../assets/img/somos-p.jpg");
+    background-image: url("../img/somos1.png");
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -548,7 +548,7 @@ footer {
     height: 75%;
     font-size: 20px;
     display: flex;
-    color: darkslategray;
+    color: #4DC088;
 }
 .Sparrafo p {
     margin: 4%;
@@ -561,9 +561,9 @@ footer {
     height: 100vh;
     font-family: Poppins;
     background-color: darksalmon;
-    /* background-image: url(../img/somos-p.jpg);
+    background-image: url("../img/instal1.PNG");
     background-repeat: no-repeat;
-    background-size: 100%; */
+    background-size: 100%; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -602,9 +602,9 @@ footer {
     height: 100vh;
     font-family: Poppins;
     background-color: darkred;
-    /* background-image: url(../img/somos-p.jpg);
+    background-image: url("../img/instal2.PNG");
     background-repeat: no-repeat;
-    background-size: 100%; */
+    background-size: 100%; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -636,6 +636,48 @@ footer {
     color: darkslategray;
 }
 .SparrafoL p {
+    margin: 4%;
+}
+
+
+.ScontenedorRT{
+    width: 100%;
+    height: 100vh;
+    font-family: Poppins;
+    background-color: darksalmon;
+    background-image: url("../img/instal3.PNG");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.SvacioRT {
+    width: 50%;
+}
+.StituloRT{
+    background-color: #E5C99840;
+    width: 50%;
+    height: 100vh;
+    margin: 2%;
+}
+.Sh1RT{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 25%;
+    font-size: 25px;
+    color: darkorchid;
+}
+.SparrafoRT{
+    width: 100%;
+    height: 75%;
+    font-size: 20px;
+    display: flex;
+    color: darkslategray;
+}
+.SparrafoRT p {
     margin: 4%;
 }
 
@@ -693,7 +735,7 @@ footer {
 }
 #errNom {
     width: 100%;
-    color: red;
+    color: #BFF1F1;
 }
 #errAsun {
     width: 100%;
@@ -719,3 +761,6 @@ footer {
     background-color: darkcyan;
     padding: 3%;
 }
+
+/* Pagina de Catalogo */
+

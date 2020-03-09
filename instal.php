@@ -25,13 +25,13 @@
         </div>
         <div class="StituloL"></div>
     </div>
-    <div class="ScontenedorR">
-        <div class="SvacioR"></div>
-        <div class="StituloR">
-            <div class="Sh1R">
+    <div class="ScontenedorRT">
+        <div class="SvacioRT"></div>
+        <div class="StituloRT">
+            <div class="Sh1RT">
                 <h1>INSTALACION3</h1>
             </div>
-            <div class="SparrafoR">
+            <div class="SparrafoRT">
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et sed quo quibusdam praesentium iste blanditiis laudantium maiores adipisci corrupti enim, eveniet assumenda? Dolore, praesentium mollitia. Ex eos quas quam quisquam?
                 </p>

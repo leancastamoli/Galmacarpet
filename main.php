@@ -12,7 +12,7 @@
                     <h2>¿Quienes somos?</h2>
                 </div>
                 <div class="Isomos animated fadeInLeft">
-                    <img src="assets/img/quienes_somos.png" alt="¿Quienes Somos?">
+                    <img src="assets/img/imagen2.png" alt="¿Quienes Somos?">
                 </div>
                 <div class="Psomos">
                     <div>
@@ -43,7 +43,7 @@
                         
                     </div>
                     <div class="Iinstal">
-                        <img src="assets/img/instalacion.jpg" alt="Instalacion">
+                        <img src="assets/img/imagen3.png" alt="Instalacion">
                     </div>
             </div>
 
@@ -52,7 +52,7 @@
                     <h2>Catalogo?</h2>
                 </div>
                 <div class="Icatalogo">
-                    <img src="assets/img/catalogo.jpg" alt="Catalogo">
+                    <img src="assets/img/imagen4.png" alt="Catalogo">
                 </div>
                 <div class="Pcatalogo">
                     <div>
@@ -83,7 +83,7 @@
                     </div>
                 </div>
                 <div class="Icontacta">
-                    <img src="assets/img/contactos.jpg" alt="Instalacion">
+                    <img src="assets/img/imagen5.png" alt="Instalacion">
                 </div>
             </div>
                 

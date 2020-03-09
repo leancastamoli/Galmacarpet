@@ -4,44 +4,20 @@
         $asunto = $_POST['asunto'];
         $correo = $_POST['correo'];
         $consulta = $_POST['consulta'];
+        
 ?>
-    <script>
-        var comprobar = true;
-        comprobarNombre("<?php echo  $nombre ?>");
-        if (comprobar) {
-            document.getElementById("errNom").innerHTML = ("Nombre erroneo o vacio<br>");
-            comprobar = false;
-        }
-        document.getElementById("errAsun").innerHTML = ("Nombre erroneo o vacio<br>");
-        document.getElementById("errEmail").innerHTML = ("Nombre erroneo o vacio<br>");
-        document.getElementById("errConsul").innerHTML = ("Nombre erroneo o vacio<br>");
-          
-    <?php    
-           /*  $header = 'From:'.$correo;
-            $header .= "X-Mailer: PHP/".phpversion()."\r\n";
-            $header .= "Mime-Version: 1.0 \r\n";
-            $header .= "Content-Type:text/plain";
-
-            $mensaje = "Este mensaje fue enviado por " .$nombre . "\r\n";
-            $mensaje .= "Su correo es: " .$correo . "\r\n";
-            $mensaje .= "Su consulta es: \r\n";
-            $mensaje .= $consulta;
-            $mensaje .= "Enviado el " .date('d/m/Y',time()); 
-
-            $para = 'leancastamoli@gmail.com';
-            $asunto = $asunto;
-
-            mail($para,$asunto,utf8_decode($mensaje),$header);
-            correoEnviado(); */
-    ?>
-    </script>
+        <script>
+                document.getElementById("errNom").style.color = 'red';
+                document.getElementById("errAsun").innerHTML = "Nombre erroneo o vacio<br>";
+                document.getElementById("errEmail").innerHTML = "Nombre erroneo o vacio<br>";
+                document.getElementById("errConsul").innerHTML = "Nombre erroneo o vacio<br>";
             
+        </script> 
 <?php
-        
     }
-        
-
 ?>
+     
+
 
 
 <main>
@@ -75,7 +51,7 @@
                     </div>
                     <div class="Bdato">
                         <input type="text" id="nombre" name="nombre" placeholder="nombre">
-                        <div id="errNom"></div><br>
+                        <div id="errNom">Nombre erroneo o vacio<br></div><br>
                     </div>
                     
                     <div class="Cdato">
@@ -100,7 +76,7 @@
                         <div id="errConsul"></div><br>
                     </div>
                     <div class="Benviar">
-                        <button type="submit" name="enviar"><i class="fas fa-envelope"></i>  ENVIAR</button>
+                        <button type="submit" name="enviar" id="boton"><i class="fas fa-envelope"></i>  ENVIAR</button>
                     </div>
                 </form>
             </div>

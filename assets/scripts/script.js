@@ -26,10 +26,16 @@ function correoEnviado() {
 }
 
 /* Validar datos formulario consulta */
-
-function comprobarNombre(nombre) {
-    var nombre = nombre;
-    alert(nombre);
+function comprobarNombre() {
+    document.getElementById("errNom").innerHTML = "Nombre erroneo o vacio<br>";
+    document.getElementById("errAsun").innerHTML = "Nombre erroneo o vacio<br>";
+    document.getElementById("errEmail").innerHTML = "Nombre erroneo o vacio<br>";
+    document.getElementById("errConsul").innerHTML = "Nombre erroneo o vacio<br>";
+    }
+/* 
+function comprobarNombre(correo) {
+    var correo = correo;
+    alert(correo);
      resultado = false;
     if (nombre == "" || asunto == "" || correo == "" || consulta == "" ) {
         return true;
@@ -42,4 +48,4 @@ function comprobarNombre(nombre) {
             
     } 
     
-}
+} */
