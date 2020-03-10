@@ -37,6 +37,26 @@
             $actual="Contacta con nosotros";
             $pagina="contacta.php";
         }
+        if($pagina=="insert")	{
+            $actual="Insertar productos";
+            $pagina="insertar.php";
+        }
+        if($pagina=="sub")	{
+            $actual="Subtipos";
+            $pagina="subtipo.php";
+        }
+        if($pagina=="datos")	{
+            $actual="Datos";
+            $pagina="datos.php";
+        }
+        if($pagina=="model")	{
+            $actual="Modelo";
+            $pagina="modelo.php";
+        }
+        if($pagina=="var")	{
+            $actual="Variacion";
+            $pagina="variacion.php";
+        }
     }else{
         $pagina="main.php";
     }

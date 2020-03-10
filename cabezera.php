@@ -3,6 +3,7 @@
     session_start();
     require('clases/db_abstract_model.php');
     require('clases/inicio_model.php');
+    require('clases/catalogo_model.php');
     if (isset($_GET['cerrar'])) {
         unset( $_SESSION['tipo']);
     }
