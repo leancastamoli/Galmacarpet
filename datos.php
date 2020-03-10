@@ -68,6 +68,8 @@
                         productoCreado();
                     </script>
                 <?php  
+                    header("location:index.php?p=catalogo");
+
                 }
                 else{
                 ?>
