@@ -49,6 +49,15 @@ function productoCreado() {
         timer: 2000
       })
 }
+function productoEditado() {
+    Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'El producto ha sido editado',
+        showConfirmButton: false,
+        timer: 2000
+      })
+}
 
 
 /* Validar datos formulario consulta */

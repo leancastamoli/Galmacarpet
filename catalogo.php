@@ -24,6 +24,20 @@
                     }
                 }
                 ?>
+                <div class="rutas">
+                    <ul>
+                        <li>PASILLOS</li>
+                        <ul>
+                            <li>HAUSSMANN 1G</li>
+                            <li>HAUSSMANN 2G</li>
+                            <li>HAUSSMANN 3G</li>
+                            <li>HAUSSMANN 4G</li>
+                            <li>HAUSSMANN 5G</li>
+                        </ul>
+                        <li>CUSTOM RUG</li>
+                        <li>MOQUETA</li>
+                    </ul>
+                </div>
                 
             </div>
             <div class="Cimagenes">

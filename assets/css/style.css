@@ -816,3 +816,7 @@ footer {
     font-size: 30px;
     margin: 0.5em;
 }
+.rutas li{
+    background-color: blue;
+    font-size: 5px;
+}
