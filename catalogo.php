@@ -88,7 +88,7 @@
                                         if ($fila['subtipo'] == $_GET['subtipo']) {
                                             ?>
                                                 <div class="imagen">
-                                                    <a href="index.php?p=datos&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
+                                                    <a href="index.php?p=mostrar&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
                                                 <div class="controles">
                                             <?php
                                                     if (isset($_SESSION['tipo'])) {
@@ -108,7 +108,7 @@
                                     }else{
                                             ?>
                                                 <div class="imagen">
-                                                    <a href="index.php?p=datos&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
+                                                    <a href="index.php?p=mostrar&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
                                                 <div class="controles">
                                             <?php
                                                     if (isset($_SESSION['tipo'])) {
@@ -133,7 +133,7 @@
                                 if ($fila['tipo'] == $tipo) {
                                             ?>
                                                 <div class="imagen">
-                                                    <a href="index.php?p=datos&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
+                                                    <a href="index.php?p=mostrar&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
                                                 <div class="controles">
                                             <?php
                                                     if (isset($_SESSION['tipo'])) {
@@ -162,7 +162,7 @@
                                                         if ($fila['subtipo'] == $_GET['subtipo'] && $fila['modelo'] == $_GET['modelo'] && $fila['variacion'] == $_GET['variacion']) {
                                                             ?>
                                                                 <div class="imagen">
-                                                                    <a href="index.php?p=datos&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
+                                                                    <a href="index.php?p=mostrar&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
                                                                 <div class="controles">
                                                             <?php
                                                                     if (isset($_SESSION['tipo'])) {
@@ -182,7 +182,7 @@
                                                     }else{
                                                         ?>
                                                             <div class="imagen">
-                                                                <a href="index.php?p=datos&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
+                                                                <a href="index.php?p=mostrar&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
                                                             <div class="controles">
                                                         <?php
                                                                 if (isset($_SESSION['tipo'])) {
@@ -203,7 +203,7 @@
                                             }else{
                                                 ?>
                                                     <div class="imagen">
-                                                        <a href="index.php?p=datos&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
+                                                        <a href="index.php?p=mostrar&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
                                                     <div class="controles">
                                                 <?php
                                                         if (isset($_SESSION['tipo'])) {
@@ -224,7 +224,7 @@
                                     }else{
                                             ?>
                                                 <div class="imagen">
-                                                    <a href="index.php?p=datos&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
+                                                    <a href="index.php?p=mostrar&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
                                                 <div class="controles">
                                             <?php
                                                     if (isset($_SESSION['tipo'])) {
@@ -246,7 +246,7 @@
                         }else{
                             ?>
                                 <div class="imagen">
-                                    <a href="index.php?p=datos&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
+                                    <a href="index.php?p=mostrar&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
                                     <div class="controles">
                             <?php
                                     if (isset($_SESSION['tipo'])) {

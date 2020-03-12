@@ -57,6 +57,10 @@
             $actual="Variacion";
             $pagina="variacion.php";
         }
+        if($pagina=="mostrar")	{
+            $actual="Mostrar";
+            $pagina="mostrar.php";
+        }
     }else{
         $pagina="main.php";
     }

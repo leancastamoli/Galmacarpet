@@ -23,33 +23,42 @@
 ?>
 
 <main>
-    <div>
-        <h1>Modelo</h1> 
-    </div>
+    <div class="Icontenedor1">
+        <div class="Inh1">
+            <h1>Modelo</h1> 
+        </div>
 
-    <?php
-        if ($_GET['sub'] == 'contract') {
-    ?>
-            <form action="index.php?p=model&tipoa=<?php echo $tipoa.'&sub='.$sub?>" id="formmodel" method="POST">
-                <select name="modelo" id="modelo">
-                    <option value="custom_carpet">CUSTOM CARPETS</option>
-                    <option value="cobalt">COBALT</option>
-                    <option value="zem">ZEM</option>
-                </select><br>
-                <input type="submit" name="enviarM" value="ENVIAR">
-            </form>
-    <?php
-        }else{
-    ?>
-            <form action="index.php?p=model&tipoa=<?php echo $tipoa.'&sub='.$sub?>" id="formmodel" method="POST">
-                <select name="modelo" id="modelo">
-                    <option value="renaissance">RENAISSANCE</option>
-                    <option value="infinity">INFINITY</option>
-                </select><br>
-                <input type="submit" name="enviarR" value="ENVIAR">
-            </form>
-    <?php
-        }
-    ?>
-      
+        <?php
+            if ($_GET['sub'] == 'contract') {
+        ?>
+            <div class="Iform">
+                <form action="index.php?p=model&tipoa=<?php echo $tipoa.'&sub='.$sub?>" id="formmodel" method="POST">
+                        <select name="modelo" id="modelo">
+                            <option value="custom_carpet">CUSTOM CARPETS</option>
+                            <option value="cobalt">COBALT</option>
+                            <option value="zem">ZEM</option>
+                        </select><br>
+                        <button class="enviar"  name="enviarM" type="submit">SIGUIENTE <i class="fas fa-arrow-right"></i></button>
+                </form>
+            </div>
+               
+        <?php
+            }else{
+        ?>
+            <div class="Iform">
+                <form action="index.php?p=model&tipoa=<?php echo $tipoa.'&sub='.$sub?>" id="formmodel" method="POST">
+                    <select name="modelo" id="modelo">
+                        <option value="renaissance">RENAISSANCE</option>
+                        <option value="infinity">INFINITY</option>
+                    </select><br>
+                    <button class="enviar"  name="enviarR" type="submit">SIGUIENTE <i class="fas fa-arrow-right"></i></button>
+                </form>
+            </div>
+                
+        <?php
+            }
+        ?>
+        
+    </div>
+    
 </main>

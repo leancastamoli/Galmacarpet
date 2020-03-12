@@ -14,20 +14,21 @@
 ?>
 
 <main>
-    <div>
-        <h1>Insertar producto</h1>
-
-        <div>
+    <div class="Icontenedor1">
+        <div class="Inh1">
+            <h1>Insertar producto</h1>
+        </div>
+        <div class="Ih2">
             <h2>Agregar tipo: </h2>
         </div>
-        <div>
+        <div class="Iform">
             <form action="index.php?p=insert" id="formtipo" method="POST">
                 <select name="tipoa" id="tipoa">
                     <option value="pasillos">PASILLOS</option>
                     <option value="custom_rug">CUSTOM RUG</option>
                     <option value="moqueta">MOQUETA</option>
                 </select><br>
-                <input type="submit" name="enviar" value="ENVIAR">
+                <button class="enviar"  name="enviar" type="submit">SIGUIENTE <i class="fas fa-arrow-right"></i></button>
             </form>
                 
         </div>

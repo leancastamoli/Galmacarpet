@@ -139,19 +139,39 @@
             $imagen = $fila['imagen'];
 ?>
     <main>
-        <form action="index.php?p=datos&tipoa=<?php echo $fila['tipo'].'&sub='.$fila['subtipo'].'&modelo='.$fila['modelo']. '&variacion='.$fila['variacion'].'&imagen='.$fila['imagen'].'&id='.$id ?>" id="datos" method="POST" enctype="multipart/form-data">
-            <label>Imagen: </label>
-            <input type="file" name="fichero"><br>
-            <label>Titulo: </label><br>
-            <input type="text" name="titulo" value="<?php echo $fila['titulo']?>"><br>
-            <label>Dibujo: </label><br>
-            <input type="text" name="dibujo" value="<?php echo $fila['dibujo']?>"><br>
-            <label>Colores: </label><br>
-            <input type="text" name="colores" value="<?php echo $fila['colores']?>"><br>
-            <label>Tipo de lana: </label><br>
-            <input type="text" name="lana" value="<?php echo $fila['tipo_lana']?>"><br>
-            <input type="submit" name="editar" value="EDITAR">
-        </form>
+        <div class="Icontenedor2">
+            <div class="Inh1">
+                <h1>Editar: <?php echo $fila['titulo'] ?></h1>
+            </div>
+            <div class="Dform">
+                <form action="index.php?p=datos&tipoa=<?php echo $fila['tipo'].'&sub='.$fila['subtipo'].'&modelo='.$fila['modelo']. '&variacion='.$fila['variacion'].'&imagen='.$fila['imagen'].'&id='.$id ?>" id="datos" method="POST" enctype="multipart/form-data">
+                    <div>
+                        <label>Imagen: </label><br>
+                        <input type="file" name="fichero"><br>
+                    </div>
+                    <div>
+                        <label>Titulo: </label><br>
+                        <input type="text" name="titulo" value="<?php echo $fila['titulo']?>"><br>
+                    </div>
+                    <div>
+                        <label>Dibujo: </label><br>
+                        <input type="text" name="dibujo" value="<?php echo $fila['dibujo']?>"><br>
+                    </div>
+                    <div>
+                        <label>Colores: </label><br>
+                        <input type="text" name="colores" value="<?php echo $fila['colores']?>"><br>
+                    </div>
+                    <div>
+                        <label>Tipo de lana: </label><br>
+                        <input type="text" name="lana" value="<?php echo $fila['tipo_lana']?>"><br>
+                    </div>
+                    <div>
+                        <input class="enviarD" type="submit" name="editar" value="EDITAR">
+                    </div>
+                </form>
+            </div>
+        </div>
+       
     </main>
 <?php
         }
@@ -159,19 +179,40 @@
 ?>
         <!-- Pagina creacion -->
 <main>
-    <form action="index.php?p=datos&tipoa=<?php echo $tipoa.'&sub='.$sub.'&modelo='.$modelo. '&variacion='.$variacion ?>" id="datos" method="POST" enctype="multipart/form-data">
-        <label>Imagen: </label>
-        <input type="file" name="fichero"><br>
-        <label>Titulo: </label><br>
-        <input type="text" name="titulo" placeholder="Titulo"><br>
-        <label>Dibujo: </label><br>
-        <input type="text" name="dibujo" placeholder="Dibujo"><br>
-        <label>Colores: </label><br>
-        <input type="text" name="colores" placeholder="Colores"><br>
-        <label>Tipo de lana: </label><br>
-        <input type="text" name="lana" placeholder="Tipo de lana"><br>
-        <input type="submit" name="enviar" value="ENVIAR">
-    </form>
+    <div class="Icontenedor2">
+        <div class="Inh1">
+            <h1>Agregar Datos</h1>
+        </div>
+        <div class="Dform">
+            <form action="index.php?p=datos&tipoa=<?php echo $tipoa.'&sub='.$sub.'&modelo='.$modelo. '&variacion='.$variacion ?>" id="datos" method="POST" enctype="multipart/form-data">
+                <div>
+                    <label>Imagen: </label><br>
+                    <input type="file" name="fichero"><br>
+                </div>
+                <div>
+                    <label>Titulo: </label><br>
+                    <input type="text" name="titulo" placeholder="Titulo"><br>
+                </div>
+                <div>
+                    <label>Dibujo: </label><br>
+                    <input type="text" name="dibujo" placeholder="Dibujo"><br>
+                </div>
+                <div>
+                    <label>Colores: </label><br>
+                    <input type="text" name="colores" placeholder="Colores"><br>
+                </div>
+                <div>
+                    <label>Tipo de lana: </label><br>
+                    <input type="text" name="lana" placeholder="Tipo de lana"><br>
+                </div>
+                <div class="enviarD">
+                    <input type="submit" name="enviar" value="AGREGAR">
+                </div>
+            </form>
+        </div>
+    </div>
+        
+    
 </main>
 
 <?php

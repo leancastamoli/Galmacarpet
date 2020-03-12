@@ -17,6 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/animated.css">
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush&display=swap" rel="stylesheet">
@@ -64,6 +65,6 @@
             <p>Conoce nuestra variedad de estilos de moquetas</p>
         </div>
         </div>
-        
+        <span class="ir-arriba fas fa-arrow-up"></span>
         
     </header>

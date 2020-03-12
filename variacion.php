@@ -17,15 +17,23 @@ if (isset($_POST['enviar'])) {
 ?>
 
 <main>
-    <h1>Variacion</h1>
-
-    <form action="index.php?p=var&tipoa=<?php echo $tipoa.'&sub='.$sub.'&modelo='.$modelo ?>" id="formvar" method="POST">
-        <select name="variacion" id="variacion">
-            <option value="1g">VARIACION 1G</option>
-            <option value="2g">VARIACION 2G</option>
-            <option value="3g">VARIACION 3G</option>
-        </select><br>
-        <input type="submit" name="enviar" value="ENVIAR">
-    </form>
+    <div class="Icontenedor1">
+        <div class="Inh1">
+            <h1>Variacion</h1>
+        </div>
+        
+        <div class="Iform">
+            <form action="index.php?p=var&tipoa=<?php echo $tipoa.'&sub='.$sub.'&modelo='.$modelo ?>" id="formvar" method="POST">
+                <select name="variacion" id="variacion">
+                    <option value="1g">VARIACION 1G</option>
+                    <option value="2g">VARIACION 2G</option>
+                    <option value="3g">VARIACION 3G</option>
+                </select><br>
+                <button class="enviar"  name="enviar" type="submit">SIGUIENTE <i class="fas fa-arrow-right"></i></button>
+            </form>
+        </div>
+        
+    </div>
+    
 
 </main>
