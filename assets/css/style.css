@@ -738,7 +738,7 @@ footer {
 }
 #errNom {
     width: 100%;
-    color: #BFF1F1;
+    color: red;
 }
 #errAsun {
     width: 100%;

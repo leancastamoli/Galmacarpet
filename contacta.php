@@ -5,15 +5,6 @@
         $correo = $_POST['correo'];
         $consulta = $_POST['consulta'];
         
-?>
-        <script>
-                document.getElementById("errNom").style.color = 'red';
-                document.getElementById("errAsun").innerHTML = "Nombre erroneo o vacio<br>";
-                document.getElementById("errEmail").innerHTML = "Nombre erroneo o vacio<br>";
-                document.getElementById("errConsul").innerHTML = "Nombre erroneo o vacio<br>";
-            
-        </script> 
-<?php
     }
 ?>
      
@@ -51,7 +42,7 @@
                     </div>
                     <div class="Bdato">
                         <input type="text" id="nombre" name="nombre" placeholder="nombre">
-                        <div id="errNom">Nombre erroneo o vacio<br></div><br>
+                        <div id="errNom"></div><br>
                     </div>
                     
                     <div class="Cdato">
@@ -76,7 +67,7 @@
                         <div id="errConsul"></div><br>
                     </div>
                     <div class="Benviar">
-                        <button type="submit" name="enviar" id="boton"><i class="fas fa-envelope"></i>  ENVIAR</button>
+                        <button type="button" name="enviar" id="boton"><i class="fas fa-envelope"></i>  ENVIAR</button>
                     </div>
                 </form>
             </div>

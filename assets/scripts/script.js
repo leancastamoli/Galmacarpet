@@ -69,7 +69,7 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		if( $(this).scrollTop() > 0 ){
 			$('.ir-arriba').slideDown(300);
-		} else {
+		} else { 
 			$('.ir-arriba').slideUp(300);
 		}
 	});
@@ -77,12 +77,28 @@ $(document).ready(function(){
 });
 
 /* Validar datos formulario consulta */
-function comprobarNombre() {
-    document.getElementById("errNom").innerHTML = "Nombre erroneo o vacio<br>";
-    document.getElementById("errAsun").innerHTML = "Nombre erroneo o vacio<br>";
-    document.getElementById("errEmail").innerHTML = "Nombre erroneo o vacio<br>";
-    document.getElementById("errConsul").innerHTML = "Nombre erroneo o vacio<br>";
-    }
+$(document).ready(function(){
+    $('#boton').click(function(){
+        var nombre = nombre.val;
+        alert(nombre);
+        resultado = false;
+        if (nombre == "" || asunto == "" || correo == "" || consulta == "" ) {
+            return true;
+        }else{
+            var array = new Array();
+            var expNombre = /ab+c/;
+            var expAsunto = /^[A-Za-z0-9\s]+$/g;
+            var expCorreo = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/;
+            var consulta = /^[A-Za-z0-9\s]+$/g;
+                
+        } 
+		document.getElementById("errNom").innerHTML = "Nombre erroneo o vacio<br>";
+        document.getElementById("errAsun").innerHTML = "Asunto erroneo o vacio<br>";
+        document.getElementById("errEmail").innerHTML = "Correo erroneo o vacio<br>";
+        document.getElementById("errConsul").innerHTML = "Consulta erronea vacio<br>";
+	});
+    
+});
 /* 
 function comprobarNombre(correo) {
     var correo = correo;
