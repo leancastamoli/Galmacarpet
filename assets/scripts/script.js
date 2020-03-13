@@ -77,42 +77,19 @@ $(document).ready(function(){
 });
 
 /* Validar datos formulario consulta */
-$(document).ready(function(){
-    $('#boton').click(function(){
-        var nombre = nombre.val;
-        alert(nombre);
-        resultado = false;
-        if (nombre == "" || asunto == "" || correo == "" || consulta == "" ) {
-            return true;
-        }else{
-            var array = new Array();
-            var expNombre = /ab+c/;
-            var expAsunto = /^[A-Za-z0-9\s]+$/g;
-            var expCorreo = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/;
-            var consulta = /^[A-Za-z0-9\s]+$/g;
-                
-        } 
-		document.getElementById("errNom").innerHTML = "Nombre erroneo o vacio<br>";
-        document.getElementById("errAsun").innerHTML = "Asunto erroneo o vacio<br>";
-        document.getElementById("errEmail").innerHTML = "Correo erroneo o vacio<br>";
-        document.getElementById("errConsul").innerHTML = "Consulta erronea vacio<br>";
-	});
-    
-});
-/* 
-function comprobarNombre(correo) {
-    var correo = correo;
-    alert(correo);
-     resultado = false;
-    if (nombre == "" || asunto == "" || correo == "" || consulta == "" ) {
-        return true;
-    }else{
-        var array = new Array();
-        var expNombre = /ab+c/;
-        var expAsunto = /^[A-Za-z0-9\s]+$/g;
-        var expCorreo = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/;
-        var consulta = /^[A-Za-z0-9\s]+$/g;
-            
-    } 
-    
-} */
+    /* var expNombre = /ab+c/;
+    var expAsunto = /^[A-Za-z0-9\s]+$/g;
+    var expCorreo = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/;
+    var consulta = /^[A-Za-z0-9\s]+$/g; */
+   
+    function validar() {
+        var nombre = document.getElementById("nombre").value;
+        var asunto = document.getElementById("asunto").value;
+        var correo = document.getElementById("correo").value;
+        var consulta = document.getElementById("consulta").value;
+
+        if (nombre === "") {
+            alert("El  nombre esta vacio");
+            return false;
+        }
+    }

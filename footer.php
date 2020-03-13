@@ -1,4 +1,4 @@
-<footer>
+        <footer>
                 <label class="footerR">
                 <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram"></i></a>
                 <a href="https://es-es.facebook.com/"> <i class="fab fa-facebook-square"></i></a>

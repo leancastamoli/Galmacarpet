@@ -36,27 +36,27 @@
                 <h1><i class="fab fa-wpforms"></i></h1>
             </div>
             <div class="Fformulario">
-                <form action="index.php?p=contacta" id="formulario" method="POST">
+                <form action="index.php?p=contacta" id="formulario" method="POST" onsubmit="return validar();">
                     <div class="Cdato">
                         <label>Nombre:</label>
                     </div>
                     <div class="Bdato">
-                        <input type="text" id="nombre" name="nombre" placeholder="nombre">
-                        <div id="errNom"></div><br>
+                        <input type="text" id="nombre" name="nombre" placeholder="nombre" >
+                        <div id="errNom"> </div><br>
                     </div>
                     
                     <div class="Cdato">
                         <label>Asunto:</label>
                     </div>
                     <div class="Bdato">
-                        <input type="text" id="asunto" name="asunto" placeholder="Asunto">
+                        <input type="text" id="asunto" name="asunto" placeholder="Asunto" >
                         <div id="errAsun"></div><br>
                     </div>
                     <div class="Cdato">
                         <label>Correo electronico:</label>
                     </div>
                     <div class="Bdato">
-                        <input type="email" id="correo" name="correo" placeholder="Correo electronico">
+                        <input type="email" id="correo" name="correo" placeholder="Correo electronico" >
                         <div id="errEmail"></div><br>
                     </div>
                     <div class="Cdato">
@@ -67,14 +67,14 @@
                         <div id="errConsul"></div><br>
                     </div>
                     <div class="Benviar">
-                        <button type="button" name="enviar" id="boton"><i class="fas fa-envelope"></i>  ENVIAR</button>
+                        <input type="submit" name="enviar" value="ENVIAR" id="boton">
                     </div>
                 </form>
             </div>
         </div>
         <div class="mapa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d777.5325519733237!2d-0.7958778703815078!3d38.24364872019303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63b940807472e5%3A0x3268644b12d585be!2sMantenimiento%20Ind.%20Siper!5e1!3m2!1ses!2ses!4v1583414534269!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>        </div>
-    </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d777.5325519733237!2d-0.7958778703815078!3d38.24364872019303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63b940807472e5%3A0x3268644b12d585be!2sMantenimiento%20Ind.%20Siper!5e1!3m2!1ses!2ses!4v1583414534269!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>        </div>
+        </div>
     
 
 </main>

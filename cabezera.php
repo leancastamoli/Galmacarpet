@@ -17,13 +17,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/animated.css">
-    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/script/jquery-3.4.1.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/48e67b19ab.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./assets/scripts/script.js"></script>
-
     <title>Galmacarpet</title>
 </head>
 <body class="animated fadeIn">
@@ -44,10 +43,9 @@
     </div>
     <header>
 		<div class="menu">
-            <div class="titulo">
-                
-            <a href="index.php?p=main"><h1>Galmacarpet</h1></a>     
-                </div>
+            <div class="titulo">   
+                <a href="index.php?p=main"><h1>Galmacarpet</h1></a>     
+            </div>
                 <div class="menuD"> 
                     <ul>
                         <li><a href="index.php?p=somos">¿Quienes somos?</a></li>
