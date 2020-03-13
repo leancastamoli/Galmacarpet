@@ -25,6 +25,26 @@
     <script type="text/javascript" src="./assets/scripts/script.js"></script>
     <title>Galmacarpet</title>
 </head>
+<script>
+    $(document).ready(function(){
+    
+    $('.ir-arriba').click(function(){
+        $('body, html').animate({
+            scrollTop: '0px'
+        }, 300);
+    });
+
+    $(window).scroll(function(){
+        if( $(this).scrollTop() > 0 ){
+            $('.ir-arriba').slideDown(300);
+        } else { 
+            $('.ir-arriba').slideUp(300);
+        }
+    });
+
+    });
+</script>
+<span class="ir-arriba icon-arrow-up2"></span>
 <body class="animated fadeIn">
     <div class="barraH">
         <label class="telefono" ><i class="fas fa-phone"></i>+34 613 243 920</label>
