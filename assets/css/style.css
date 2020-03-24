@@ -76,7 +76,7 @@ body {
 
       /* Cabezera */
 header {
-    background-image: url("../img/imagen1.PNG");
+    background-image: url("../img/portada2.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -109,7 +109,7 @@ header {
 }
 @media (max-width:768px){
     header {
-        background-image: url("../img/imagen1.PNG");
+        background-image: url("../img/portada2.png");
         background-size: 100%;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -140,7 +140,7 @@ header {
 }
             /* Menu */
 .menu {
-    background-color: #F8E67F80;
+    background-color: #984B4380;
     display: grid;
     grid-template-columns: 30% 70%;
 }
@@ -161,28 +161,30 @@ header {
     border-radius: 10%;
     
 }
-.menuD li:hover{
-    background-color: #D0D95E60;
+.menuD li a:hover{
+    color: #EAC67A;
 }
 
 .menuD li a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .titulo {
     margin-left: 20%;
     margin-top: 3%;
+    font-size: 25px;
     grid-column-start: 1;
     grid-column-end: 2;
+    font-family: 'Alex Brush', cursive;
 }
 .titulo a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 @media (max-width:768px){
 
     .menu {
-        background-color: #F8E67F80;
+        background-color: #984B4380;
         display: grid;
         grid-template-columns: auto;
     }
@@ -218,13 +220,14 @@ body {
     font-family: Poppins;
     display: flex;
     flex-wrap: wrap;
-    background-color: #DACA74;
+    background-color: #EAC67A;
     padding-bottom: 8em;
 }
 
 .Tsomos {
     width: 100%;
     padding: 1em;
+    margin-left: 10%;
     font-size: 30px;
 }
 
@@ -237,10 +240,12 @@ body {
 }
 .Isomos img {
     border-radius: 10%;
+    border:solid 3px black;
     width: 95%;
 }
 .Psomos {
     width: 50%;
+    
     display: flex;
     align-content: center;
     align-items: center;
@@ -248,8 +253,9 @@ body {
     
 }
 .Psomos div {
-    background-color: #A8A17740;
+    background-color: #984B4380;
     border-radius: 20px;
+    border:solid 3px black;
     width: 95%;
     height: 60%;
 }
@@ -265,7 +271,9 @@ body {
     padding: 17px 34px;
     background-color: #928D70;
     border-radius: 20px;
+    font-size: 15px;
     color: black;
+    border:solid 3px black;
     font-family: Poppins;
 }
 
@@ -275,7 +283,7 @@ body {
         font-family: Poppins;
         display: flex;
         align-items: center;
-        background-color: #DACA74;
+        background-color: #EAC67A;
         padding-bottom: 8em;
     }
     
@@ -296,6 +304,7 @@ body {
     }
     .Isomos img {
         border-radius: 10%;
+        border:solid 3px black;
         width: 100%;
     }
     .Psomos {
@@ -310,6 +319,7 @@ body {
     .Psomos div {
         background-color: #A8A17740;
         border-radius: 20px;
+        border:solid 3px black;
         width: 100%;
         height: 40%;
     }
@@ -324,7 +334,7 @@ body {
     font-family: Poppins;
     display: flex;
     flex-wrap: wrap;
-    background-color: #E2D796;
+    background-color: #EAC67A;
     padding-bottom: 7em;
 }
 
