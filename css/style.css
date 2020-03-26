@@ -76,7 +76,7 @@ body {
 
       /* Cabezera */
 header {
-    background-image: url("../img/portada2.png");
+    background-image: url("../assets/img/portada2.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -109,12 +109,10 @@ header {
 }
 @media (max-width:768px){
     header {
-        background-image: url("../img/portada2.png");
-        background-size: 100%;
+        background-image: url("../assets/img/portada2.png");
+        background-size: 300%;
         background-repeat: no-repeat;
-        background-attachment: fixed;
         width: 100%;
-        height: 29em;
         font-family: Poppins;
     }
     .Timg{
@@ -215,7 +213,7 @@ body {
     background-color: whitesmoke;
 }
 .main{
-    background-image: url("../img/fondo.png");
+    background: -webkit-linear-gradient(top, rgba(243,235,130,1) 0%, rgba(255,192,97,1) 23%, rgba(255,192,97,1) 100%);
 }
 /* ¿Quienes somos? */
 
@@ -223,15 +221,15 @@ body {
     font-family: Poppins;
     display: flex;
     flex-wrap: wrap;
-
     padding-bottom: 8em;
 }
 
 .Tsomos {
+    font-family: 'Alex Brush', cursive;
     width: 100%;
-    padding: 1em;
+    padding: 0.5em;
     margin-left: 10%;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .Isomos {
@@ -242,13 +240,15 @@ body {
     justify-content: space-around;
 }
 .Isomos img {
+    -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
     border-radius: 10%;
     border:solid 3px black;
     width: 95%;
 }
 .Psomos {
     width: 50%;
-    
     display: flex;
     align-content: center;
     align-items: center;
@@ -256,7 +256,10 @@ body {
     
 }
 .Psomos div {
-    background-color: #984B4380;
+    -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    background-color: #ad4c4c;
     border-radius: 20px;
     border:solid 3px black;
     width: 95%;
@@ -286,15 +289,15 @@ body {
         font-family: Poppins;
         display: flex;
         align-items: center;
-        background-color: #EAC67A;
         padding-bottom: 8em;
     }
     
     .Tsomos {
         width: 100%;
         font-size: 30px;
+        margin-left: 8%;
         text-align: center;
-        margin-bottom: -7%;
+        margin-bottom: -8%;
     }
     
     .Isomos {
@@ -306,6 +309,9 @@ body {
         justify-content: space-around;
     }
     .Isomos img {
+        -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
         border-radius: 10%;
         border:solid 3px black;
         width: 100%;
@@ -320,14 +326,17 @@ body {
         
     }
     .Psomos div {
-        background-color: #A8A17740;
+        -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        background-color: #ad4c4c;
         border-radius: 20px;
         border:solid 3px black;
         width: 100%;
         height: 40%;
     }
     .Psomos div button {
-        margin-left: 60%;
+        margin-left: 30%;
         margin-bottom: 2%;
     }
 
@@ -342,10 +351,11 @@ body {
 }
 
 .Tinstal {
+    font-family: 'Alex Brush', cursive;
     width: 100%;
-    padding: 1em;
-    font-size: 30px;
-    margin-left: 70%;
+    padding: 0.5em;
+    font-size: 50px;
+    margin-left: 65%;
 }
 
 .Iinstal {
@@ -356,7 +366,11 @@ body {
     justify-content: space-around;
 }
 .Iinstal img {
+    -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
     border-radius: 10%;
+    border:solid 3px black;
     width: 95%;
 }
 .Pinstal {
@@ -367,8 +381,12 @@ body {
     justify-content: space-around;
 }
 .Pinstal div {
-    background-color: #D2CA9B;
+    -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    background-color: #ad4c4c;
     border-radius: 20px;
+    border:solid 3px black;
     margin-top: 4%;
     width: 95%;
     height: 60%;
@@ -385,6 +403,7 @@ body {
     padding: 17px 34px;
     background-color: #928D70;
     border-radius: 20px;
+    border:solid 3px black;
     color: black;
     font-family: Poppins;
 }
@@ -404,7 +423,7 @@ body {
         font-size: 30px;
         text-align: center;
         margin-left: 0;
-        margin-bottom: -7%;
+        margin-bottom: -3%;
     }
     
     .Iinstal {
@@ -416,6 +435,10 @@ body {
         justify-content: space-around;
     }
     .Iinstal img {
+        -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        border:solid 3px black;
         border-radius: 10%;
         width: 100%;
     }
@@ -429,13 +452,17 @@ body {
         
     }
     .Pinstal div {
-        background-color: #A8A17740;
+        -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        background-color: #ad4c4c;
+        border:solid 3px black;
         border-radius: 20px;
         width: 100%;
         height: 40%;
     }
     .Pinstal div button {
-        margin-left: 60%;
+        margin-left: 35%;
         margin-bottom: 2%;
     }
 
@@ -447,14 +474,15 @@ body {
     font-family: Poppins;
     display: flex;
     flex-wrap: wrap;
-
     padding-bottom: 7.5em;
 }
 
 .Tcatalogo {
+    font-family: 'Alex Brush', cursive;
     width: 100%;
-    padding: 1em;
-    font-size: 30px;
+    padding: 0.5em;
+    margin-left: 10%;
+    font-size: 50px;
 }
 
 .Icatalogo {
@@ -465,6 +493,10 @@ body {
     justify-content: space-around;
 }
 .Icatalogo img {
+    -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    border:solid 3px black;
     border-radius: 10%;
     width: 95%;
 }
@@ -476,7 +508,11 @@ body {
     justify-content: space-around;
 }
 .Pcatalogo div {
-    background-color: #C3BB91;
+    -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    background-color: #ad4c4c;
+    border:solid 3px black;
     border-radius: 20px;
     width: 95%;
     height: 60%;
@@ -493,6 +529,7 @@ body {
     padding: 17px 34px;
     background-color: #928D70;
     border-radius: 20px;
+    border:solid 3px black;
     color: black;
     font-family: Poppins;
 }
@@ -523,7 +560,11 @@ body {
         justify-content: space-around;
     }
     .Icatalogo img {
+        -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
         border-radius: 10%;
+        border:solid 3px black;
         width: 100%;
     }
     .Pcatalogo {
@@ -536,13 +577,17 @@ body {
         
     }
     .Pcatalogol div {
-        background-color: #A8A17740;
+        -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        background-color: #ad4c4c;
+        border:solid 3px black;
         border-radius: 20px;
         width: 100%;
         height: 40%;
     }
     .Pcatalogo div button {
-        margin-left: 60%;
+        margin-left: 35%;
         margin-bottom: 2%;
     }
 
@@ -557,9 +602,10 @@ body {
 }
 
 .Tcontacta {
+    font-family: 'Alex Brush', cursive;
     width: 100%;
-    padding: 1em;
-    font-size: 30px;
+    padding: 0.5em;
+    font-size: 50px;
     margin-left: 60%;
 }
 
@@ -571,7 +617,11 @@ body {
     justify-content: space-around;
 }
 .Icontacta img {
+    -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
     border-radius: 10%;
+    border:solid 3px black;
     width: 95%;
 }
 .Pcontacta {
@@ -582,7 +632,11 @@ body {
     justify-content: space-around;
 }
 .Pcontacta div {
-    background-color: #C3BB91;
+    -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    background-color: #ad4c4c;
+    border:solid 3px black;
     border-radius: 20px;
     width: 95%;
     height: 60%;
@@ -599,6 +653,7 @@ body {
     padding: 17px 34px;
     background-color: #928D70;
     border-radius: 20px;
+    border:solid 3px black;
     color: black;
     font-family: Poppins;
 }
@@ -618,7 +673,7 @@ body {
         font-size: 30px;
         text-align: center;
         margin-left: 0;
-        margin-bottom: -7%;
+        margin-bottom: -1%;
     }
     
     .Icontacta {
@@ -630,7 +685,11 @@ body {
         justify-content: space-around;
     }
     .Icontacta img {
+        -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
         border-radius: 10%;
+        border:solid 3px black;
         width: 100%;
     }
     .Pcontacta {
@@ -644,13 +703,17 @@ body {
         
     }
     .Pcontactal div {
-        background-color: #A8A17740;
+        -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+        background-color: #ad4c4c;
+        border:solid 3px black;
         border-radius: 20px;
         width: 100%;
         height: 40%;
     }
     .Pcontacta div button {
-        margin-left: 60%;
+        margin-left: 35%;
         margin-bottom: 2%;
     }
 
