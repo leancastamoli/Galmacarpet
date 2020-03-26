@@ -214,13 +214,16 @@ header {
 body {
     background-color: whitesmoke;
 }
+.main{
+    background-image: url("../img/fondo.png");
+}
 /* ¿Quienes somos? */
 
 .somos {
     font-family: Poppins;
     display: flex;
     flex-wrap: wrap;
-    background-color: #EAC67A;
+
     padding-bottom: 8em;
 }
 
@@ -334,7 +337,7 @@ body {
     font-family: Poppins;
     display: flex;
     flex-wrap: wrap;
-    background-color: #EAC67A;
+
     padding-bottom: 7em;
 }
 
@@ -444,7 +447,7 @@ body {
     font-family: Poppins;
     display: flex;
     flex-wrap: wrap;
-    background-color: #DAD1A0;
+
     padding-bottom: 7.5em;
 }
 
@@ -549,7 +552,7 @@ body {
     font-family: Poppins;
     display: flex;
     flex-wrap: wrap;
-    background-color: #CFC89E ;
+
     padding-bottom: 8.5em;
 }
 
