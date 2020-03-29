@@ -247,13 +247,18 @@
                             ?>
                                 <div class="imagen">
                                     <a href="index.php?p=mostrar&id=<?php echo $fila['id']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="imagen"></a><br>
+                                    <p class="nombre"><?php echo $fila['titulo']?></p><br>
                                     <div class="controles">
                             <?php
                                     if (isset($_SESSION['tipo'])) {
-                                        if (isset($_SESSION['tipo'])) {
+                                        if ($_SESSION['tipo']=="admin") {
                             ?>
                                         <a href="index.php?p=catalogo&borrar=<?php echo $fila['id']?>"><i class="far fa-trash-alt"></i></a>
                                         <a href="index.php?p=datos&edit=<?php echo $fila['id']?>"><i class="fas fa-edit"></i></a>
+                            <?php
+                                        }else if ($_SESSION['tipo']=="trabajador") {
+                            ?>
+                                            <a href="index.php?p=datos&edit=<?php echo $fila['id']?>"><i class="fas fa-edit"></i></a>
                             <?php
                                         }
                                     }

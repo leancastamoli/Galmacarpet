@@ -20,7 +20,7 @@
             </div>
             <div class="Mcontenedor">
                 <div class="Mimagen">
-                    <img src="./assets/img/<?php echo $fila['imagen']?>" alt="<?php echo $fila['imagen']?>">
+                    <a class="fancybox" href="./assets/img/<?php echo $fila['imagen']?>"><img src="./assets/img/<?php echo $fila['imagen']?>" alt="<?php echo $fila['imagen']?>" /></a>
                 </div>
                 <div class="Mtexto">
                     <label class="enun">Tipo:</label><br>

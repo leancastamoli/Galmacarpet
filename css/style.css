@@ -109,7 +109,7 @@ header {
 }
 @media (max-width:768px){
     header {
-        background-image: url("../assets/img/portada2.png");
+        background-image: url("../img/portada2.png");
         background-size: 300%;
         background-repeat: no-repeat;
         width: 100%;
@@ -212,7 +212,7 @@ header {
 body {
     background-color: whitesmoke;
 }
-.main{
+main{
     background: -webkit-linear-gradient(top, rgba(243,235,130,1) 0%, rgba(255,192,97,1) 23%, rgba(255,192,97,1) 100%);
 }
 /* ¿Quienes somos? */
@@ -594,10 +594,9 @@ body {
 }
 /* Contacta con nosotros */
 .contacta {
-    font-family: Poppins;
+    font-family: 'Alex Brush', cursive;
     display: flex;
     flex-wrap: wrap;
-
     padding-bottom: 8.5em;
 }
 
@@ -807,17 +806,17 @@ footer {
 
 .enunciado{
     font-family: Poppins;
-    background-color: #8EC7CC;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
 }
 .Tenunciado {
+    font-family: 'Alex Brush', cursive;
     text-align: center;
     width: 100%;
     padding: 1em;
-    font-size: 30px;
+    font-size: 50px;
 }
 .Penunciado {
     text-align: justify;
@@ -874,7 +873,7 @@ footer {
     align-items: center;
 }
 .formulario {
-    background-color: #75A8AD;
+    background-color: #ad4c4c;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -897,7 +896,7 @@ footer {
     font-size: 20px;
 }
 .Bdato input{
-    background-color: #5C868A;
+    background-color: #EFA595;
     border:none;
     border-bottom: 1px solid black;
     width: 100%;
@@ -915,21 +914,13 @@ footer {
     font-size:20px ;
 }
 .Bdato textarea{
-    background-color: #5C868A;
+    background-color: #EFA595;
 }
 .Bdato textarea::placeholder{
     color: black;
 }
 @media (max-width:768px){
-    
-    .enunciado{
-        font-family: Poppins;
-        background-color: #8EC7CC;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-    }
+
     .Tenunciado {
         text-align: center;
         width: 100%;
@@ -1537,7 +1528,6 @@ footer {
 /* Pagina de Catalogo */
 
 .Ccontenedor{
-    background-color: darkseagreen;
     font-family: Poppins;
 }
 .Ctitulo{
@@ -1546,9 +1536,11 @@ footer {
     text-align: center;
 }
 .Ctitulo h1{
-    color: darkgoldenrod;
+    color: black;
 }
 .Ctitulo a{
+    font-family: 'Alex Brush', cursive;
+    font-size: 80px;
     text-decoration: none;
     color: black;
 }
@@ -1575,8 +1567,8 @@ footer {
 }
 .imagen {
     border-radius: 20%;
-    width: 20em;
-    height: 20em;
+    width: 25em;
+    height: 25em;
     margin: 1em;
 }
 .imagen a img {
@@ -1586,6 +1578,12 @@ footer {
     margin-top: 2em;
     width: 90%;
     height: 60%;
+}
+.nombre{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Poppins;
 }
 .controles{
     text-align: center;
@@ -1597,7 +1595,7 @@ footer {
     margin: 0.5em;
 }
 .rutas li a{
-    font-size: 15px;
+    font-size: 25px;
 }
 .rutas {
     padding-right: 2em;
@@ -1614,18 +1612,13 @@ footer {
     margin-left: 1em;
 }
 @media (max-width:768px){
-
-    .Ccontenedor{
-        background-color: darkseagreen;
-        font-family: Poppins;
-    }
     .Ctitulo{
         font-size: 30px;
         margin-bottom: 1em;
         text-align: center;
     }
     .Ctitulo h1{
-        color: darkgoldenrod;
+        color: black;
     }
     .Ctitulo a{
         text-decoration: none;
@@ -1654,8 +1647,8 @@ footer {
     }
     .imagen {
         border-radius: 20%;
-        width: 10em;
-        height: 10em;
+        width: 9em;
+        height: 9em;
         margin: 1em;
     }
     .imagen a img {

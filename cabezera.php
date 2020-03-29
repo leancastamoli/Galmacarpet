@@ -17,12 +17,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animated.css">
-    <script src="./assets/script/jquery-3.4.1.min.js"></script>
+    <script src="./script/jquery-3.4.1.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/48e67b19ab.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./assets/scripts/script.js"></script>
+    <script type="text/javascript" src="./scripts/script.js"></script>
+
+    <!-- FancyBox -->
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/fancybox/jquery.fancybox-1.3.4/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="./assets/fancybox/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./assets/fancybox/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
     <title>Galmacarpet</title>
 </head>
 <script>
@@ -43,6 +51,12 @@
     });
 
     });
+    
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
 </script>
 <span class="ir-arriba icon-arrow-up2"></span>
 <body class="animated fadeIn">
