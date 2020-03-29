@@ -60,7 +60,6 @@ function productoEditado() {
 }
 
 
-
 /* Validar datos formulario consulta */
     /* var expNombre = /ab+c/;
     var expAsunto = /^[A-Za-z0-9\s]+$/g;
