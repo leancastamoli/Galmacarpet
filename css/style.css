@@ -11,7 +11,7 @@ body {
 }
 
 .barraH {
-    background-color: red;
+    background-color: black;
     width: 100%;
     height: 1%;
     padding-top: 0.5%;
@@ -76,70 +76,14 @@ body {
 
       /* Cabezera */
 header {
-    background-image: url("../img/portada2.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 100%;
-    height: 56em;
+    height: 100%;
     font-family: Poppins;
     border-bottom: solid 2px black;
 }
-.Timg{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.Timg h1{
-    font-family: 'Alex Brush', cursive;
-    margin-left: 3%;
-    font-size: 130px;
-}
-.Pimg{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 30px;
-}
-.Pimg p{
-    font-family: 'Alex Brush', cursive;
-    margin-left: 3%;
-}
-@media (max-width:768px){
-    header {
-        background-image: url("../img/portada2.png");
-        background-size: 300%;
-        background-repeat: no-repeat;
-        width: 100%;
-        font-family: Poppins;
-    }
-    .Timg{
-        width: 100%;
-        height: 55%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .Timg h1{
-        font-family: 'Alex Brush', cursive;
-        margin-left: 3%;
-        font-size: 100px;
-    }
-    .Pimg{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        font-size: 20px;
-    }
-
-}
             /* Menu */
 .menu {
-    background-color: #984B4380;
+    background: linear-gradient(135deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 53%, rgba(254,182,69,1) 100%);
     display: grid;
     grid-template-columns: 30% 70%;
 }
@@ -161,12 +105,12 @@ header {
     
 }
 .menuD li a:hover{
-    color: #EAC67A;
+    color: goldenrod;
 }
 
 .menuD li a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .titulo {
     margin-left: 20%;
@@ -178,12 +122,12 @@ header {
 }
 .titulo a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 @media (max-width:768px){
 
     .menu {
-        background-color: #984B4380;
+        background: linear-gradient(135deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 53%, rgba(254,182,69,1) 100%);
         display: grid;
         grid-template-columns: auto;
     }
@@ -595,7 +539,7 @@ main{
 }
 /* Contacta con nosotros */
 .contacta {
-    font-family: 'Alex Brush', cursive;
+    font-family: Poppins;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 8.5em;
@@ -1694,7 +1638,6 @@ footer {
     /* Pagina mostrar */
 
 .Mpagina{
-    background-color: darkolivegreen;
     font-family: Poppins;
 
 }
@@ -1713,7 +1656,7 @@ footer {
     font-size: 30px;
     margin-bottom: 1em;
     margin-top: 1em;
-    color: darkred;
+    color: black;
     text-align: center;
 }
 .Mcontenedor{
@@ -1724,19 +1667,25 @@ footer {
     margin: 2em;
 }
 .Mimagen img{
-    width: 30em;
-    height: 15em;
+    -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    width: 40em;
+    height: 25em;
     border-radius: 30px;
     border: solid 2px black;
 }
 .Mtexto{
+    -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
     margin: 2em;
     font-size: 20px;
     margin-left: 10em;
     margin-right: 50%;
     padding: 2em;
     border-radius: 30px;
-    background-color: darkslategray;
+    background-color: #ad4c4c;
     border: solid 2px black;
 }
 .enun{
@@ -1772,11 +1721,6 @@ footer {
 }
 
 @media (max-width:768px){
-    .Mpagina{
-        background-color: darkolivegreen;
-        font-family: Poppins;
-
-    }
     .Mtitulo{
         display: grid;
         grid-template-columns: 10% 90%;
@@ -1982,7 +1926,7 @@ select{
 
 .swiper-container {
       width: 100%;
-      height: 100%;
+      height: 91.2vh;
     }
     .swiper-slide {
       text-align: center;

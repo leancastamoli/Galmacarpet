@@ -58,9 +58,9 @@
                 <div class="Pcatalogo">
                     <div>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
-                        Fuga quisquam aliquid earum eligendi natus cupiditate, <br>
-                        voluptatibus quaerat totam porro inventore pariatur ullam <br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Fuga quisquam aliquid earum eligendi natus cupiditate, 
+                        voluptatibus quaerat totam porro inventore pariatur ullam 
                         beatae magni praesentium asperiores in sapiente nostrum.
                         </p>
                          <a href="index.php?p=catalogo"><button class="botont">Ir al catalogo</button></a> 
@@ -75,9 +75,9 @@
                 <div class="Pcontacta">
                     <div>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
-                        Fuga quisquam aliquid earum eligendi natus cupiditate, <br>
-                        voluptatibus quaerat totam porro inventore pariatur quos ullam <br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Fuga quisquam aliquid earum eligendi natus cupiditate, 
+                        voluptatibus quaerat totam porro inventore pariatur quos ullam 
                         beatae magni praesentium asperiores in sapiente nostrum.
                         </p>
                         <a href="index.php?p=contacta"><button class="botont">Contactos</button></a> 
