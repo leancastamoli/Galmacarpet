@@ -76,9 +76,66 @@ body {
 
       /* Cabezera */
 header {
+    background-image: url("../img/portada2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
+    height: 56em;
     font-family: Poppins;
     border-bottom: solid 2px black;
+}
+.Timg{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Timg h1{
+    font-family: 'Alex Brush', cursive;
+    margin-left: 3%;
+    font-size: 130px;
+}
+.Pimg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+.Pimg p{
+    font-family: 'Alex Brush', cursive;
+    margin-left: 3%;
+}
+@media (max-width:768px){
+    header {
+        background-image: url("../img/portada2.png");
+        background-size: 300%;
+        background-repeat: no-repeat;
+        width: 100%;
+        font-family: Poppins;
+    }
+    .Timg{
+        width: 100%;
+        height: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Timg h1{
+        font-family: 'Alex Brush', cursive;
+        margin-left: 3%;
+        font-size: 100px;
+    }
+    .Pimg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
 }
             /* Menu */
 .menu {
@@ -171,7 +228,7 @@ main{
 .Tsomos {
     font-family: 'Alex Brush', cursive;
     width: 100%;
-    padding: 10em;
+    padding: 0.5em;
     margin-left: 10%;
     font-size: 50px;
 }
@@ -336,7 +393,6 @@ main{
     height: 60%;
 }
 .Pinstal div p {
-    background-color: red;
     text-align: justify;
     font-size: 130%;
     padding: 2em;
@@ -539,7 +595,7 @@ main{
 }
 /* Contacta con nosotros */
 .contacta {
-    font-family: Poppins;
+    font-family: 'Alex Brush', cursive;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 8.5em;

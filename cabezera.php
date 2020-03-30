@@ -16,8 +16,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/animated.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animated.css">
     <script src="./scripts/jquery-3.4.1.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
@@ -33,8 +33,8 @@
 	<link rel="stylesheet" type="text/css" href="./assets/fancybox/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
 
     <!-- Link Swiper Idangero-->
-    <link rel="stylesheet" href="./assets/css/swiper.css">
-    <script src="assets/scripts/swiper.min.js"></script>
+    <link rel="stylesheet" href="./css/swiper.css">
+    <script src="scripts/swiper.min.js"></script>
 
     <title>Galmacarpet</title>
 </head>
@@ -113,13 +113,6 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
     </div>
-
-        <div class="Timg">
-            <h1>Galmacarpet</h1>
-            <div class="Pimg">
-            <p>Conoce nuestra variedad de estilos de moquetas</p>
-        </div>
-        </div>
         <span class="ir-arriba fas fa-arrow-up"></span>
         
     </header>

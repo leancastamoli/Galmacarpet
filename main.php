@@ -6,7 +6,7 @@
 ?>
 
 
-<main class="main">
+<main>
         
             <div class="somos">
                 <div class="Tsomos">
