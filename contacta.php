@@ -25,7 +25,7 @@
                 <div><a href="https://es-es.facebook.com/"><i class="fab fa-facebook-square"></i></a></div>
             </div>
             <div class="Tcontacto">
-                <div><i class="far fa-envelope"></i><label>correo@gmail.com</label></div>
+                <div><i class="far fa-envelope"></i><label>galmacarpet@galmacarpet.com</label></div>
                 <div><i class="fas fa-phone"></i><label>632173212</label></div>
             </div>   
             <p>Escribenos un mensaje atraves de nuestras redes sociales</p><br>
@@ -36,13 +36,13 @@
                 <h1><i class="fab fa-wpforms"></i></h1>
             </div>
             <div class="Fformulario">
-                <form action="index.php?p=contacta" id="formulario" method="POST" onsubmit="return validar();">
+                <form action="index.php?p=contacta" id="formulario" method="post" onsubmit="return validar();">
                     <div class="Cdato">
                         <label>Nombre:</label>
                     </div>
                     <div class="Bdato">
                         <input type="text" id="nombre" name="nombre" placeholder="nombre" >
-                        <div id="errNom"> </div><br>
+                        <div id="errNom"></div><br>
                     </div>
                     
                     <div class="Cdato">

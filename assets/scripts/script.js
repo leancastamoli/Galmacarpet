@@ -71,7 +71,7 @@ function productoEditado() {
         var asunto = document.getElementById("asunto").value;
         var correo = document.getElementById("correo").value;
         var consulta = document.getElementById("consulta").value;
-
+        alert("dsadsa");
         if (nombre === "") {
             alert("El  nombre esta vacio");
             return false;

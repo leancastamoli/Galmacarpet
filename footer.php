@@ -4,7 +4,7 @@
                 <a href="https://es-es.facebook.com/"> <i class="fab fa-facebook-square"></i></a>
                 <a href="https://www.google.com/intl/es/gmail/about/#"><i class="far fa-envelope"></i></a>
                     <br>
-                    <i class="far fa-envelope"></i>correo@gmail.com
+                    <i class="far fa-envelope"></i>galmacarpet@galmacarpet.com
                 </label> 
                 <label class="footerD">
                     <a href="index.php?p=somos"> ¿Quienes somos? |</a>
