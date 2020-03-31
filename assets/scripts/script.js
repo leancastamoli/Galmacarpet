@@ -61,28 +61,23 @@ function productoEditado() {
 
 
 /* Validar datos formulario consulta */
-    /* var expNombre = /ab+c/;
-    var expAsunto = /^[A-Za-z0-9\s]+$/g;
-    var expCorreo = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/;
-    var consulta = /^[A-Za-z0-9\s]+$/g; */
+    
    
     function validar() {
+        var expNombre = /^[A-Za-z]+$/;
+        var expAsunto = /^[A-Za-z0-9\s]+$/;
+        var expCorreo = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
+        var consulta = /^[A-Za-z0-9\s]+$/; 
         var nombre = document.getElementById("nombre").value;
         var asunto = document.getElementById("asunto").value;
         var correo = document.getElementById("correo").value;
         var consulta = document.getElementById("consulta").value;
-        alert("dsadsa");
-        if (nombre === "") {
-            alert("El  nombre esta vacio");
-            return false;
-        }else if (asunto === "") {
-            alert("El  nombre esta vacio");
-            return false;
-        }else if (correo === "") {
-            alert("El  nombre esta vacio");
-            return false;
-        }else if (consulta === "") {
-            alert("El  nombre esta vacio");
+        /* if (nombre === "" || asunto === "" || correo === "" || consulta === "") {
+            alert("Todos los campos son obligatorios");
+        } */
+        if(expNombre.test(nombre)){
+            alert("error");
+            document.getElementById("errNom").innerHTML = ("Nombre erroneo<br>");
             return false;
         }
         
