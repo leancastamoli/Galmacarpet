@@ -1927,32 +1927,34 @@ select{
 	right:20px;
 }
 
-/* Slider Swiper Idangero */
+/* Div bienvenida */
+#div1{
+    -webkit-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    box-shadow: 9px -8px 24px 2px rgba(0,0,0,1);
+    box-sizing: border-box;
+    padding: 12px;
+    width: 200px;
+    height: 100px;
+    background-color: #ad4c4c;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    right: 2%;
+    top: 15%;
+    border-radius: 20%;
+    border:solid 2px black;
+}
+#borrar {
+    font-size: 15px;
+    position: fixed;
+    cursor: pointer;
+    color: black;
+    padding: 5px;
+    border-radius: 25%;
+    border: solid 2px black;
+    right: 6.5%;
+    background-color: #ad4c4c;
+}
 
-.swiper-container {
-      width: 100%;
-      height: 91.2vh;
-    }
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-    }
-    .swiper-slide img{
-        width: 100%;
-        height: 100%;
-      }

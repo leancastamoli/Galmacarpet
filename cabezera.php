@@ -32,10 +32,6 @@
 	<script type="text/javascript" src="./assets/fancybox/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 	<link rel="stylesheet" type="text/css" href="./assets/fancybox/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
 
-    <!-- Link Swiper Idangero-->
-    <link rel="stylesheet" href="./assets/css/swiper.css">
-    <script src="assets/scripts/swiper.min.js"></script>
-
     <title>Galmacarpet</title>
 </head>
 <script>
@@ -56,6 +52,14 @@
     });
 
     });
+    $(document).ready(function(){
+        $("#borrar").click(function(){
+            $("#div1").fadeOut();
+        });
+        $("#mostrar").click(function(){
+            $("#div1").fadeIn("slow");
+        });
+    });
     
 </script>
 <script type="text/javascript">
@@ -63,8 +67,6 @@
 		$(".fancybox").fancybox();
 	});
 </script>
-
-<span class="ir-arriba icon-arrow-up2"></span>
 <body class="animated fadeIn">
     <div class="barraH">
         <label class="telefono" ><i class="fas fa-phone"></i>+34 613 243 920</label>
@@ -96,31 +98,13 @@
                 </div>
             
         </div>
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-        <div class="swiper-slide"> <img src="./assets/img/catalogo.jpg" alt=""> </div>
-        <div class="swiper-slide"><img src="./assets/img/contactos.jpg" alt=""></div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
-        <div class="swiper-slide">Slide 10</div>
-        </div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-    </div>
         <span class="ir-arriba fas fa-arrow-up"></span>
-        
+        <div id="div1">
+            <div>
+                Bienvenido a Galmacarpet
+            </div>
+            <div>
+                <button id="borrar" name="borrar"><i class="fas fa-times"></i></button>
+            </div>
+		</div>
     </header>
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-            navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-            },
-        });
-    </script>
