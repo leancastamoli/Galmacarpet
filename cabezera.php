@@ -69,7 +69,7 @@
 </script>
 <body class="animated fadeIn">
     <div class="barraH">
-        <label class="telefono" ><i class="fas fa-phone"></i>+34 613 243 920</label>
+        <label class="telefono" ><i class="fas fa-phone"></i>613 243 920</label>
         <label class="redes"> <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram"></i></a> <a href="https://es-es.facebook.com/"> <i class="fab fa-facebook-square"></i></a> <a href="https://www.google.com/intl/es/gmail/about/#"><i class="far fa-envelope"></i></a> </label>
     <?php
         if (isset($_SESSION['tipo'])) {
