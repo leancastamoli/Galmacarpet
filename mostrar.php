@@ -52,6 +52,7 @@
                     <label class="resp"><?php echo $fila['colores'] ?></label><br>
                     <label class="enun">Tipo de Lana: </label><br>
                     <label class="resp"><?php echo $fila['tipo_lana'] ?></label><br>
+                    <a href="imprimir.php?id=<?php echo $fila['id'] ?>">Imprimir</a>
                 </div>
             </div>
                    
