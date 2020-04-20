@@ -108,10 +108,10 @@
 		</div>
         <div class="slider">
             <ul>
-                <li> <img src="./assets/img/portada2.png" alt="portada2"> </li>
-                <li> <img src="./assets/img/instal1.png" alt="instal"> </li>
-                <li> <img src="./assets/img/imagen4.png" alt="imagen4"> </li>
-                <li> <img src="./assets/img/somos1.png" alt="somos1"> </li>
+                <li> <img src="assets/img/portada2.png" alt="portada2"> </li>
+                <li> <img src="assets/img/instal1.PNG" alt="instal"> </li>
+                <li> <img src="assets/img/imagen4.PNG" alt="imagen4"> </li>
+                <li> <img src="assets/img/somos1.PNG" alt="somos1"> </li>
             </ul>
         </div>
     </header>
