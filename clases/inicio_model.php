@@ -8,7 +8,7 @@ class Inicio extends DBAbstractModel {
 	public $tipo;
 	public $contraseña;
 	function __construct() {
-		$this->db_name = 'galmacarpet';
+		$this->db_name = 'id13348079_galmacarpet';
 		
 	}
 	public function get($id='') {

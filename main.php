@@ -18,10 +18,12 @@
                 <div class="Psomos">
                     <div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quisquam aliquid earum eligendi natus cupiditate,  voluptatibus quaerat totam porro inventore pariatur quos ullam  beatae magni praesentium asperiores in sapiente nostrum.
+                        GALMACARPET, S.L. fue constituida como tal en 1.983 aunque nuestra tradición en el sector se remonta a los años 40 del siglo pasado. En esta trayectoria nuestro primer objetivo ha sido, siempre, cubrir las necesidades del cliente, adaptándonos a las distintas preferencias y evolución del mercado mediante una constante mejora de nuetros estándares de calidad, tanto en producto como en servicio.
                         </p>
-                         <a href="index.php?p=somos"><button class="botont">¿Quienes somos?</button></a> 
                     </div>
+                    <div>
+                        <a href="index.php?p=somos"><button class="botont">¿Quienes somos?</button></a> 
+                    </div> 
                 </div>
             </div>
 
@@ -32,16 +34,13 @@
                     <div class="Pinstal">
                         <div>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Fuga quisquam aliquid earum eligendi natus cupiditate,
-                                voluptatibus quaerat totam porro inventore pariatur ullam 
-                                beatae magni praesentium asperiores in sapiente nostrum.
+                            Nuestras instalaciones están dotadas de la última tecnología lo cual, junto a un profesional y experimentado equipo humano, nos permite adaptarnos constantemente a las necesidades específicas del mercado.
                                 
                             </p>
+                        </div>
+                        <div>
                             <a href="index.php?p=instal"><button class="botont">Instalaciones</button></a> 
                         </div>
-                        
-                        
                     </div>
                     <div class="Iinstal">
                         <img src="assets/img/imagen3.PNG" alt="Instalacion">
@@ -58,11 +57,10 @@
                 <div class="Pcatalogo">
                     <div>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Fuga quisquam aliquid earum eligendi natus cupiditate, 
-                        voluptatibus quaerat totam porro inventore pariatur ullam 
-                        beatae magni praesentium asperiores in sapiente nostrum.
+                        GALMACARPET es, sin duda, un referente en la fabricación de alfombras y moquetas en España. Una empresa que ha sabido mantener y aumentar su prestigio en el sector gracias al Know-how adquirido por sus recursos humanos y a la iniciativa empresarial.
                         </p>
+                    </div>
+                    <div>
                          <a href="index.php?p=catalogo"><button class="botont">Ir al catalogo</button></a> 
                     </div>
                 </div>
@@ -75,11 +73,10 @@
                 <div class="Pcontacta">
                     <div>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Fuga quisquam aliquid earum eligendi natus cupiditate, 
-                        voluptatibus quaerat totam porro inventore pariatur quos ullam 
-                        beatae magni praesentium asperiores in sapiente nostrum.
+                        GALMACARPET, tiene un servicio de atencion a todo el interesado en nuestros productos, contacata con nosotros y obten todo tipo de alfombras, moquetas y mucho mas...
                         </p>
+                    </div>
+                    <div>
                         <a href="index.php?p=contacta"><button class="botont">Contactos</button></a> 
                     </div>
                 </div>
