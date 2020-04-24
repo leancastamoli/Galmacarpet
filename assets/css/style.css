@@ -99,6 +99,21 @@ header {
     border-bottom: solid 2px black;
 }
             /* Menu */
+#boton-menu{
+    display: none;
+}
+.hambur {
+    display: none;
+}
+.hambur i{
+    display: none;
+    font-size: 25px;
+    padding: 10px;
+}
+.hambur i:hover{
+  cursor: pointer;
+  color: white;  
+}
 .menu {
     background: linear-gradient(135deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 53%, rgba(254,182,69,1) 100%);
     display: grid;
@@ -118,7 +133,6 @@ header {
     padding: 2%;
     display: inline;
     margin-right: 3%;
-    border-radius: 10%;
     
 }
 .menuD li a:hover{
@@ -128,6 +142,10 @@ header {
 .menuD li a {
     text-decoration: none;
     color: black;
+}
+#boton-menu:checked ~ .menuD{
+    margin-top: 17%;
+    margin-left: 0;
 }
 .titulo {
     margin-left: 20%;
@@ -178,22 +196,31 @@ header {
     100% { margin-left: -300%; }
 }
 @media (max-width:768px){
-
+    .hambur{
+        display: block;
+    }
+    .hambur i{
+        display: block;
+    }
     .menu {
         display: grid;
         grid-template-columns: auto;
     }
     .menuD {
+        background: linear-gradient(135deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 53%, rgba(254,182,69,1) 100%);
+        position: absolute;
+        width: 50%;
+        margin-top: 18%;
+        margin-left: -70%;
         grid-column-start: 1;
         grid-column-end: 2;
     }
-
+    .menuD ul{
+        flex-direction: column;
+    }
     .menuD li {
         font-size: 20px;
-        display: inline;
-        margin-right: 1%;
-        border-radius: 10%;
-        
+        border-bottom: 1px solid black;
     }
     .titulo {
         text-align: center;
@@ -210,21 +237,46 @@ header {
 }
 @media (max-width:375px){
 
+    .hambur{
+        display: block;
+    }
+    .hambur i{
+        display: block;
+    }
     .menu {
         display: grid;
         grid-template-columns: auto;
     }
     .menuD {
+        background: linear-gradient(135deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 53%, rgba(254,182,69,1) 100%);
+        position: absolute;
+        width: 50%;
+        margin-top: 30%;
+        margin-left: -70%;
         grid-column-start: 1;
         grid-column-end: 2;
     }
-
+    .menuD ul{
+        flex-direction: column;
+    }
     .menuD li {
-        font-size: 12px;
-        display: inline;
-        margin-right: 1%;
-        border-radius: 10%;
-        
+        font-size: 20px;
+        border-bottom: 1px solid black;
+    }
+    #boton-menu:checked ~ .menuD{
+        margin-top: 31%;
+        margin-left: 0;
+    }
+    .titulo {
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-top: 3%;
+        margin-left: 0%;
+    }
+    .slider img {
+        width: 100%;
+        height: 200px;
     }
     .titulo {
         text-align: center;
@@ -960,9 +1012,9 @@ footer {
     color: black;
     font-size:20px ;
 }
-.Benviar button{
+#boton{
     width: 100%;
-    background-color: #344F52;
+    background-color: #EFA595;
     border: none;
     padding: 2%;
     font-size:20px ;
@@ -1206,7 +1258,7 @@ footer {
 }
 
 .Sh1S{
-    font-family: 'Alex Brush', cursive;
+    font-family: Poppins;
     text-align: center;
     width: 100%;
     color: black;
@@ -1221,7 +1273,7 @@ footer {
 }
 .SparrafoS p {
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
     margin: 10%;
 } 
 @media (max-width:768px){
@@ -1329,7 +1381,7 @@ footer {
 }
 
 .Sh1{
-    font-family: 'Alex Brush', cursive;
+    font-family: Poppins;
     text-align: center;
     width: 100%;
     color: black;
@@ -1344,7 +1396,7 @@ footer {
 }
 .SparrafoR p {
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
     margin: 10%;
 }
 @media (max-width:768px){
@@ -1396,7 +1448,7 @@ footer {
     }
     
     .Sh1{
-        font-family: 'Alex Brush', cursive;
+        font-family: Poppins;
         text-align: center;
         width: 100%;
         color: black;

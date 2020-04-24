@@ -1,7 +1,7 @@
 
 <?php
 
-    require("cabezera.php");
+    require("cabecera.php");
 
 ?>
 

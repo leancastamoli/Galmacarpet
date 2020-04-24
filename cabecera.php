@@ -68,8 +68,8 @@
 </script>
 <body class="animated fadeIn">
     <div class="barraH">
-        <label class="telefono" ><i class="fas fa-phone"></i>613 243 920</label>
-        <label class="redes"> <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram"></i></a> <a href="https://es-es.facebook.com/"> <i class="fab fa-facebook-square"></i></a> <a href="https://www.google.com/intl/es/gmail/about/#"><i class="far fa-envelope"></i></a> </label>
+        <label class="telefono" ><i class="fas fa-phone"></i>661 30 97 53</label>
+        <label class="redes"> <a href="https://www.instagram.com/galmacarpet/?hl=es"><i class="fab fa-instagram"></i></a> <a href="https://www.facebook.com/galmacarpet.sociedadlimitada.1"> <i class="fab fa-facebook-square"></i></a> </label>
     <?php
         if (isset($_SESSION['tipo'])) {
     ?>
@@ -87,11 +87,13 @@
             <div class="titulo">   
                 <a href="index.php?p=main"><h1>Galmacarpet</h1></a>     
             </div>
+                <input type="checkbox" id="boton-menu">
+                <label  class="hambur" for="boton-menu"><i class="fas fa-bars"></i></label>
                 <div class="menuD"> 
                     <ul>
-                        <li><a href="index.php?p=somos">¿Quienes somos?</a></li>
+                        <li><a href="index.php?p=somos">¿Quiénes somos?</a></li>
                         <li><a href="index.php?p=instal">Instalaciones</a></li>
-                        <li><a href="index.php?p=catalogo">Catalogo</a></li>
+                        <li><a href="index.php?p=catalogo">Catálogo</a></li>
                         <li><a href="index.php?p=contacta">Contacta con nosotros</a></li>
                     </ul>
                 </div>

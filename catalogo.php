@@ -16,7 +16,7 @@
     <div class="Ccontenedor">
 
         <div class="Ctitulo">
-             <a href="index.php?p=catalogo"><h1>Catalogo</h1></a> 
+             <a href="index.php?p=catalogo"><h1>Catálogo</h1></a> 
         </div>
         <div class="Cdatos">
             <div class="filtro">

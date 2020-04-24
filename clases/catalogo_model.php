@@ -13,7 +13,7 @@ class Producto extends DBAbstractModel {
     public $tipo_lana;
     public $imagen;
 	function __construct() {
-		$this->db_name = 'id13348079_galmacarpet';
+		$this->db_name = 'galmacarpet';
 		
 	}
 	public function get($id='') {

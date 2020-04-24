@@ -21,18 +21,18 @@
             <h1>Contacta con nosotros</h1>
         </div>
         <div class="Penunciado">
-            <p>Si tienes alguna duda sobre nuestros productos o tienes alguna duda contacat con nosotros como predieras:</p>
+            <p>Si tienes alguna duda sobre nuestros productos o tienes alguna duda contacta con nosotros como prefieras:</p>
         </div>
         <div class="Renunciado">
             <div class="social">
-                <div><a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram"></a></i></div>
-                <div><a href="https://es-es.facebook.com/"><i class="fab fa-facebook-square"></i></a></div>
+                <div><a href="https://www.instagram.com/galmacarpet/?hl=es"><i class="fab fa-instagram"></a></i></div>
+                <div><a href="https://www.facebook.com/galmacarpet.sociedadlimitada.1"><i class="fab fa-facebook-square"></i></a></div>
             </div>
             <div class="Tcontacto">
                 <div><i class="far fa-envelope"></i><label>galmacarpet@galmacarpet.com</label></div>
-                <div><i class="fas fa-phone"></i><label>632173212</label></div>
+                <div><i class="fas fa-phone"></i><label>661309753</label></div>
             </div>   
-            <p>Escribenos un mensaje atraves de nuestras redes sociales</p><br>
+            <p>Escribe un mensaje a través de nuestras redes sociales</p><br>
         </div>
     <div class="Cinfo">
         <div class="formulario">
@@ -57,10 +57,10 @@
                         <div id="errAsun"></div><br>
                     </div>
                     <div class="Cdato">
-                        <label>Correo electronico:</label>
+                        <label>Correo electrónico:</label>
                     </div>
                     <div class="Bdato">
-                        <input type="email" id="correo" name="correo" placeholder="Correo electronico" >
+                        <input type="email" id="correo" name="correo" placeholder="Correo electrónico" >
                         <div id="errEmail"></div><br>
                     </div>
                     <div class="Cdato">

@@ -10,7 +10,7 @@
         
             <div class="somos">
                 <div class="Tsomos">
-                    <h2>¿Quienes somos?</h2>
+                    <h2>¿Quiénes somos?</h2>
                 </div>
                 <div class="Isomos">
                     <img src="assets/img/imagen2.PNG" alt="¿Quienes Somos?">
@@ -22,7 +22,7 @@
                         </p>
                     </div>
                     <div>
-                        <a href="index.php?p=somos"><button class="botont">¿Quienes somos?</button></a> 
+                        <a href="index.php?p=somos"><button class="botont">¿Quiénes somos?</button></a> 
                     </div> 
                 </div>
             </div>
@@ -49,7 +49,7 @@
 
             <div class="catalogo">
                 <div class="Tcatalogo">
-                    <h2>Catalogo?</h2>
+                    <h2>Catálogo?</h2>
                 </div>
                 <div class="Icatalogo">
                     <img src="assets/img/imagen4.PNG" alt="Catalogo">
@@ -61,7 +61,7 @@
                         </p>
                     </div>
                     <div>
-                         <a href="index.php?p=catalogo"><button class="botont">Ir al catalogo</button></a> 
+                         <a href="index.php?p=catalogo"><button class="botont">Ir al catálogo</button></a> 
                     </div>
                 </div>
             </div>
