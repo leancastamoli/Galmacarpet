@@ -2,13 +2,14 @@
     if(isset($_POST['enviar'])){
         $nombre = $_POST['nombre'];
         $asunto = $_POST['asunto'];
+        $enviar = "galmacarpet@galmacarpet.com";
         $correo = $_POST['correo'];
         $consulta = $_POST['consulta'];
         $header = "From: ".$correo . "\r\n";
         $header.= "Nombre: " . $nombre . "\r\n";
         $header.= "Consulta: " . $consulta . "\r\n";
         $header.= "X-Mailer: PHP/". phpversion();
-        mail($correo,$asunto,$header);
+        mail($enviar,$asunto,$header);
     }
 ?>
      
