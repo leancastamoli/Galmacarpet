@@ -66,9 +66,6 @@
                                     'imagen'=>$fichero];
                         $producto->set($productos);
                 ?>
-                    <script>
-                        productoCreado();
-                    </script>
                 <?php  
                     header("location:index.php?p=catalogo");
 

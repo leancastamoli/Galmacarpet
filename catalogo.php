@@ -3,6 +3,15 @@
     if (isset($_GET['borrar'])) {
         $id = $_GET['borrar'];
         $producto = new Producto();
+        $producto->get($id);
+        $datos = $producto->get_rows();
+        foreach ($datos as $fila) {
+            $nombre = $fila['imagen'];
+            $destino = "./assets/img/";
+            if (is_file($destino.$nombre)) {
+                unlink($destino.$nombre);
+            }
+        }
         $producto->delete($id);
     }
     if (isset($_GET['tipo'])) {

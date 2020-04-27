@@ -32,23 +32,17 @@ function tipoIncorrecto(){
 
     /* Correctos */
 function correoEnviado() {
+    var hoy = new Date();
+    var dia = hoy.getDay;
     Swal.fire({
         position: 'top-end',
         icon: 'success',
-        title: 'El correo ha sido enviado',
+        title: 'El correo ha sido enviado el dia ' + dia,
         showConfirmButton: false,
         timer: 2000
       })
 }
-function productoCreado() {
-    Swal.fire({
-        position: 'top-end',
-        icon: 'success',
-        title: 'El producto ha sido creado',
-        showConfirmButton: false,
-        timer: 2000
-      })
-}
+
 function productoEditado() {
     Swal.fire({
         position: 'top-end',
@@ -115,3 +109,20 @@ function productoEditado() {
         }
         return error;
     }
+    $(document).ready(function(){
+        var latitud = "38.2303095";
+        var longitud = "-0.8150790";
+          $.ajax({
+              type: 'GET',
+              url: 'http://api.openweathermap.org/data/2.5/weather?lat='+ Latitud +'&lon=' + Longitud + '&units=metric&appid=9f50a805aa0089a1edd1829a5db029f0',
+              dataType: 'jsonp'
+          })
+  
+          .done(function(data){
+            alert("Correcto. La longitud es " + Longitud + " y la latitud es " + Latitud);
+            console.log(data);
+            var tiempo = data.main.temp;
+            var ciudad = data.name;
+            alert("En " + ciudad + " hace " + tiempo + " grados");
+          });
+      });
