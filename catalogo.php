@@ -31,7 +31,7 @@
             <div class="filtro">
                 <?php
                 if (isset($_SESSION['tipo'])) {
-                    if ($_SESSION['tipo']=='admin') { 
+                    if ($_SESSION['tipo']=='admin' || $_SESSION['tipo']=='traba') { 
                 ?>
                         <a href="index.php?p=insert"><i class="far fa-plus-square"></i></a>
                 <?php
@@ -101,7 +101,7 @@
                                                 <div class="controles">
                                             <?php
                                                     if (isset($_SESSION['tipo'])) {
-                                                        if (isset($_SESSION['tipo'])) {
+                                                        if ($_SESSION['tipo']=='admin') {
                                             ?>
                                                         <a href="index.php?p=catalogo&borrar=<?php echo $fila['id']?>"><i class="far fa-trash-alt"></i></a>
                                                         <a href="index.php?p=datos&edit=<?php echo $fila['id']?>"><i class="fas fa-edit"></i></a>
@@ -121,7 +121,7 @@
                                                 <div class="controles">
                                             <?php
                                                     if (isset($_SESSION['tipo'])) {
-                                                        if (isset($_SESSION['tipo'])) {
+                                                        if ($_SESSION['tipo']=='admin') {
                                             ?>
                                                         <a href="index.php?p=catalogo&borrar=<?php echo $fila['id']?>"><i class="far fa-trash-alt"></i></a>
                                                         <a href="index.php?p=datos&edit=<?php echo $fila['id']?>"><i class="fas fa-edit"></i></a>
@@ -146,7 +146,7 @@
                                                 <div class="controles">
                                             <?php
                                                     if (isset($_SESSION['tipo'])) {
-                                                        if (isset($_SESSION['tipo'])) {
+                                                        if ($_SESSION['tipo']=='admin') {
                                             ?>
                                                         <a href="index.php?p=catalogo&borrar=<?php echo $fila['id']?>"><i class="far fa-trash-alt"></i></a>
                                                         <a href="index.php?p=datos&edit=<?php echo $fila['id']?>"><i class="fas fa-edit"></i></a>
@@ -175,7 +175,7 @@
                                                                 <div class="controles">
                                                             <?php
                                                                     if (isset($_SESSION['tipo'])) {
-                                                                        if (isset($_SESSION['tipo'])) {
+                                                                        if ($_SESSION['tipo']=='admin') {
                                                             ?>
                                                                         <a href="index.php?p=catalogo&borrar=<?php echo $fila['id']?>"><i class="far fa-trash-alt"></i></a>
                                                                         <a href="index.php?p=datos&edit=<?php echo $fila['id']?>"><i class="fas fa-edit"></i></a>
@@ -195,7 +195,7 @@
                                                             <div class="controles">
                                                         <?php
                                                                 if (isset($_SESSION['tipo'])) {
-                                                                    if (isset($_SESSION['tipo'])) {
+                                                                    if ($_SESSION['tipo']=='admin') {
                                                         ?>
                                                                     <a href="index.php?p=catalogo&borrar=<?php echo $fila['id']?>"><i class="far fa-trash-alt"></i></a>
                                                                     <a href="index.php?p=datos&edit=<?php echo $fila['id']?>"><i class="fas fa-edit"></i></a>
@@ -216,7 +216,7 @@
                                                     <div class="controles">
                                                 <?php
                                                         if (isset($_SESSION['tipo'])) {
-                                                            if (isset($_SESSION['tipo'])) {
+                                                            if ($_SESSION['tipo']=='admin') {
                                                 ?>
                                                             <a href="index.php?p=catalogo&borrar=<?php echo $fila['id']?>"><i class="far fa-trash-alt"></i></a>
                                                             <a href="index.php?p=datos&edit=<?php echo $fila['id']?>"><i class="fas fa-edit"></i></a>
@@ -237,7 +237,7 @@
                                                 <div class="controles">
                                             <?php
                                                     if (isset($_SESSION['tipo'])) {
-                                                        if (isset($_SESSION['tipo'])) {
+                                                        if ($_SESSION['tipo']=='admin') {
                                             ?>
                                                         <a href="index.php?p=catalogo&borrar=<?php echo $fila['id']?>"><i class="far fa-trash-alt"></i></a>
                                                         <a href="index.php?p=datos&edit=<?php echo $fila['id']?>"><i class="fas fa-edit"></i></a>
@@ -264,10 +264,6 @@
                             ?>
                                         <a href="index.php?p=catalogo&borrar=<?php echo $fila['id']?>"><i class="far fa-trash-alt"></i></a>
                                         <a href="index.php?p=datos&edit=<?php echo $fila['id']?>"><i class="fas fa-edit"></i></a>
-                            <?php
-                                        }else if ($_SESSION['tipo']=="trabajador") {
-                            ?>
-                                            <a href="index.php?p=datos&edit=<?php echo $fila['id']?>"><i class="fas fa-edit"></i></a>
                             <?php
                                         }
                                     }

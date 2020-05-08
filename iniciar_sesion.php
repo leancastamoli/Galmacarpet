@@ -1,24 +1,3 @@
-<?php
-
-    if (isset($_POST['iniciar'])) {
-        $usuario = $_POST['usuario'];
-        $contraseña = $_POST['contraseña'];
-        $inicio = new Inicio();
-        $inicio->get();
-        $usuarios = $inicio->get_rows();
-        foreach ($usuarios as $fila) {
-            if ($usuario==$fila['usuario'] && $contraseña==$fila['contraseña']) {
-                $_SESSION['tipo']=$fila['tipo'];
-                header('location:index.php?p=main');
-            }else{
-?>
-            <script>errorcredencial()</script>
-<?php
-            }
-        }
-    }
-
-?>
 
 <main class="iniciar_sesion">
     <div class="iniciar">
@@ -30,7 +9,7 @@
                 <h1><i class="fas fa-user"></i></h1>
             </div>
             <div class="Iformulario">
-                <form action="index.php?p=iniciar"  method="POST">
+                <form action="index.php?p=main"  method="POST">
                     <div class="Idato">
                         <label>Usuario:</label>
                     </div>

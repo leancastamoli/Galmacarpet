@@ -8,6 +8,24 @@
         unset( $_SESSION['tipo']);
     }
 
+    if (isset($_POST['iniciar'])) {
+        $usuario = $_POST['usuario'];
+        $contraseña = $_POST['contraseña'];
+        $inicio = new Inicio();
+        $inicio->get();
+        $usuarios = $inicio->get_rows();
+        foreach ($usuarios as $fila) {
+            if ($usuario==$fila['usuario'] && $contraseña==$fila['contraseña']) {
+                $_SESSION['tipo']=$fila['tipo'];
+                header("Location: index.php?p=main");
+            }else{
+?>
+            <script>errorcredencial()</script>
+<?php
+            }
+        }
+    }
+
 ?>
 
 <!DOCTYPE html>
