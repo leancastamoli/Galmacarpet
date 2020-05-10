@@ -85,45 +85,7 @@
         
         
     }
-
-    /* Editar objeto mediante el post */
-
-    if (isset($_POST['editar'])) {
-        $id = $_GET['id'];
-        $tipo = $_GET['tipoa'];
-        $subtipo = $_GET['sub'];
-        $modelo = $_GET['modelo'];
-        $variacion = $_GET['variacion'];
-        $titulo = $_POST['titulo'];
-        $dibujo = $_POST['dibujo'];
-        $colores = $_POST['colores'];
-        $tipo_lana = $_POST['lana'];
-        $fichero = $_FILES['fichero']['name'];
-        if ($fichero!="") {
-            $imagen = $_FILES['fichero']['name'];
-        }else{
-            $imagen = $_GET['imagen'];
-        }
-        $producto = new Producto();
-        $datos = [  'id'=>$id,
-                    'tipo'=>$tipo,
-                    'subtipo'=>$subtipo,
-                    'modelo'=>$modelo,
-                    'variacion'=>$variacion,
-                    'titulo'=>$titulo,
-                    'dibujo'=>$dibujo,
-                    'colores'=>$colores,
-                    'tipo_lana'=>$tipo_lana,
-                    'imagen'=>$imagen
-                ];
-        $producto->edit($datos);
-?>
-        <script>
-            productoEditado();
-        </script>
-<?php
-        header("location:index.php?p=catalogo");
-    }
+  
     
     /* Editar el objeto */
     
