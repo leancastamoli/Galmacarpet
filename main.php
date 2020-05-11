@@ -49,7 +49,7 @@
 
             <div class="catalogo">
                 <div class="Tcatalogo">
-                    <h2>Catálogo?</h2>
+                    <h2>Catálogo</h2>
                 </div>
                 <div class="Icatalogo">
                     <img src="assets/img/imagen4.PNG" alt="Catalogo">
